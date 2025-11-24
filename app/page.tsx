@@ -1804,7 +1804,7 @@ const BibleQuest: React.FC = () => {
 		setSelectedAnswer(answerIndex);
 		setAnswered(true);
 
-		const isCorrect = answerIndex === question.correct;
+		const isCorrect = answerIndex === question.correct && answerIndex !== -1;
 		if (isCorrect) {
 			const points =
 				difficulty === "easy" ? 10 : difficulty === "medium" ? 15 : 20;
@@ -2180,7 +2180,6 @@ const BibleQuest: React.FC = () => {
 					</div>
 				</div>
 
-				{/* Verse + Explanation + Next */}
 				{showVerse && question && (
 					<div className="bg-purple-800 bg-opacity-70 p-6 rounded-xl border border-purple-400 text-white mb-6">
 						<div className="mt-4 flex gap-3 justify-center">
@@ -2189,13 +2188,6 @@ const BibleQuest: React.FC = () => {
 								className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg shadow-lg border border-purple-400"
 							>
 								Next Question →
-							</button>
-
-							<button
-								onClick={() => setShowVerse(true)}
-								className="bg-transparent border border-purple-500 text-white py-2 px-4 rounded-lg"
-							>
-								Read Again
 							</button>
 						</div>
 					</div>
