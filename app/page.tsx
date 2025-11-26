@@ -60,1719 +60,1778 @@ const BibleQuest: React.FC = () => {
 	const allQuestions = {
 		easy: [
 			{
-				question: "Who built the ark?",
-				options: ["Moses", "Noah", "Abraham", "David"],
+				question: "Sino ang nagtayo ng arka ayon sa utos ng Panginoon?",
+				options: ["Moises", "Noe", "Abraham", "David"],
 				correct: 1,
 			},
 			{
-				question: "What is the first book in the Bible?",
-				options: ["Exodus", "Genesis", "Matthew", "Revelation"],
+				question: "Ano ang unang aklat ng Banal na Kasulatan?",
+				options: ["Exodo", "Genesis", "Mateo", "Pahayag"],
 				correct: 1,
 			},
 			{
-				question: "How many days did God take to create the world?",
-				options: ["5", "6", "7", "10"],
+				question: "Sa ilang araw nilikha ng Panginoon ang langit at lupa?",
+				options: ["Lima", "Anim", "Pito", "Sampu"],
 				correct: 1,
 			},
 			{
-				question: "Who was the first man?",
-				options: ["Noah", "Moses", "Adam", "Abraham"],
+				question:
+					"Sino ang unang tao na nilikha ng Diyos ayon sa Kanyang larawan?",
+				options: ["Noe", "Moises", "Adan", "Abraham"],
 				correct: 2,
 			},
 			{
-				question: "Who was the first woman?",
-				options: ["Sarah", "Eve", "Mary", "Rachel"],
+				question: "Sino ang unang babae na nilikha mula sa tadyang ni Adan?",
+				options: ["Sara", "Eba", "Maria", "Rachel"],
 				correct: 1,
 			},
 			{
-				question: "Where did Adam and Eve live at the beginning of the world?",
-				options: ["Canaan", "Garden of Eden", "Egypt", "Jerusalem"],
+				question: "Saan inilagay ng Panginoon sina Adan at Eba nang pasimula?",
+				options: ["Canaan", "Halamanan ng Eden", "Egipto", "Jerusalem"],
 				correct: 1,
 			},
 			{
-				question: "Who were Adam and Eve's three sons listed in the Bible?",
+				question:
+					"Alin ang tatlong anak nina Adan at Eba na binanggit sa Kasulatan?",
 				options: [
-					"Cain, Abel, Seth",
-					"Noah, Shem, Ham",
-					"Isaac, Jacob, Esau",
-					"Moses, Aaron, Joshua",
+					"Cain, Abel, Set",
+					"Sem, Cam, Jafet",
+					"Isac, Jacob, Esau",
+					"Moises, Aaron, Josue",
 				],
 				correct: 0,
 			},
 			{
-				question:
-					"How many days and nights did it rain when Noah was on the ark?",
-				options: ["30", "40", "50", "100"],
+				question: "Ilang araw at gabi bumuhos ang ulan sa panahon ng baha?",
+				options: ["Tatlumpu", "Apatnapu", "Limampu", "Sandaan"],
 				correct: 1,
 			},
 			{
 				question:
-					"What was God’s sign to Noah that he would never destroy the earth again?",
-				options: ["A dove", "A rainbow", "An olive branch", "A cloud"],
-				correct: 1,
-			},
-			{
-				question: "How many brothers did Joseph have?",
-				options: ["10", "11", "12", "9"],
+					"Ano ang tanda ng tipan ng Panginoon kay Noe na hindi na lilipulin ang lupa sa baha?",
+				options: ["Kalapati", "Bahaghari", "Sangang olibo", "Ulap"],
 				correct: 1,
 			},
 			{
 				question:
-					"What did Jacob give Joseph that sparked jealousy from his siblings?",
-				options: ["A ring", "A coat of many colors", "A crown", "A sword"],
+					"Ilang kapatid na lalaki ang mayroon si Jose na anak ni Jacob?",
+				options: ["Sampu", "Labing-isa", "Labindalawa", "Siyam"],
 				correct: 1,
 			},
 			{
-				question:
-					"What did Joseph tell his brothers about his dreams that upset them?",
+				question: "Anong damit na makukulay ang ibinigay ni Israel kay Jose?",
 				options: [
-					"They would die",
-					"He would rule over them",
-					"They would become rich",
-					"He would leave them",
+					"Singsing",
+					"Tunikang may maraming kulay",
+					"Korona",
+					"Tungkod",
 				],
 				correct: 1,
 			},
 			{
-				question: "How did Moses’ mother save him from the Egyptian soldiers?",
-				options: [
-					"Hid him in a cave",
-					"Put him in a basket in the river",
-					"Sent him to Midian",
-					"Gave him to Pharaoh's daughter",
-				],
-				correct: 1,
-			},
-			{
-				question: "Through what did God speak to Moses in the desert?",
-				options: ["A dream", "A burning bush", "An angel", "A cloud"],
-				correct: 1,
-			},
-			{
-				question: "How many plagues did God send on Egypt?",
-				options: ["7", "10", "12", "15"],
-				correct: 1,
-			},
-			{
-				question:
-					"What was the final plague that convinced Pharaoh to let the slaves go?",
-				options: ["Locusts", "Darkness", "Death of firstborn", "Frogs"],
+				question: "Saang lungsod isinilang ang Panginoong Jesucristo?",
+				options: ["Nazaret", "Jerusalem", "Betlehem", "Capernaum"],
 				correct: 2,
 			},
 			{
-				question: "What sea did God part to let the Israelites escape Egypt?",
-				options: ["Dead Sea", "Red Sea", "Mediterranean Sea", "Sea of Galilee"],
+				question: "Sino ang nagbautismo sa Panginoong Jesucristo sa Jordan?",
+				options: ["Pedro", "Juan na Tagapagbautismo", "Felipe", "Andres"],
 				correct: 1,
 			},
 			{
-				question: "Where did God give Moses the Ten Commandments?",
-				options: ["Mt. Sinai", "Mt. Zion", "Mt. Carmel", "Mt. Nebo"],
-				correct: 0,
+				question:
+					"Ilang alagad ang pinili ng Panginoon upang maging apostoles?",
+				options: ["Sampu", "Labindalawa", "Pitumpu", "Pitumpu’t dalawa"],
+				correct: 1,
 			},
 			{
-				question: "What golden image did the Israelites make at Mt. Sinai?",
+				question: "Ano ang pinakamaikling talata sa buong Kasulatan?",
 				options: [
-					"A golden serpent",
-					"A golden calf",
-					"A golden lamb",
-					"A golden lion",
+					"“Gayon na lamang ang pag-ibig”",
+					"“Tumangis si Jesus”",
+					"“Mananalangin kayo”",
+					"“Magsayahan kayo”",
 				],
 				correct: 1,
 			},
 			{
-				question: "Who was the first king of Israel?",
-				options: ["David", "Solomon", "Saul", "Samuel"],
+				question:
+					"Ano ang ginawa ng Panginoon sa tubig sa kasalan sa Cana ng Galilea?",
+				options: ["Gatas", "Alak", "Langis", "Katas"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nagkanulo sa Panginoon sa halagang tatlumpung pirasong pilak?",
+				options: ["Pedro", "Juan", "Judas Iscariote", "Tomas"],
 				correct: 2,
 			},
 			{
 				question:
-					"When Daniel prayed to God after it was not allowed, where was he thrown?",
-				options: ["Prison", "Lion’s den", "Fiery furnace", "Well"],
-				correct: 1,
-			},
-			{
-				question: "Who was Jesus’ human mother?",
-				options: ["Elizabeth", "Mary", "Martha", "Ruth"],
-				correct: 1,
-			},
-			{
-				question: "Who was Jesus’ adoptive father on Earth?",
-				options: ["Zechariah", "Joseph", "John", "Simeon"],
-				correct: 1,
-			},
-			{
-				question: "Name the city where Jesus was born.",
-				options: ["Nazareth", "Jerusalem", "Bethlehem", "Capernaum"],
+					"Anong araw ng linggo muling nabuhay ang Panginoon mula sa mga patay?",
+				options: ["Biyernes", "Sabado", "Unang araw ng linggo", "Lunes"],
 				correct: 2,
 			},
 			{
-				question: "Who baptized Jesus?",
-				options: ["Peter", "John the Baptist", "Philip", "Andrew"],
+				question: "Ano ang huling aklat ng Banal na Kasulatan?",
+				options: ["Judas", "Pahayag kay Juan", "3 Juan", "Mga Hebreo"],
 				correct: 1,
 			},
 			{
-				question: "Before Jesus started preaching, what was his job?",
-				options: ["Fisherman", "Carpenter", "Tax collector", "Shepherd"],
-				correct: 1,
-			},
-			{
-				question: "Name Jesus’ hometown.",
-				options: ["Bethlehem", "Nazareth", "Jerusalem", "Galilee"],
-				correct: 1,
-			},
-			{
-				question: "Name the place where Jesus walked on water?",
-				options: ["Jordan River", "Dead Sea", "Sea of Galilee", "Red Sea"],
-				correct: 2,
-			},
-			{
-				question: "How many disciples did Jesus choose?",
-				options: ["10", "12", "70", "72"],
-				correct: 1,
-			},
-			{
-				question: "What is the shortest verse in the Bible?",
-				options: [
-					"“God so loved”",
-					"“Jesus wept.”",
-					"“Pray without ceasing”",
-					"“Rejoice always”",
-				],
-				correct: 1,
-			},
-			{
-				question:
-					"How much bread and fish did Jesus use to feed more than 5,000 people?",
-				options: [
-					"5 loaves, 2 fish",
-					"7 loaves, 3 fish",
-					"12 loaves, 5 fish",
-					"4 loaves, 1 fish",
-				],
-				correct: 0,
-			},
-			{
-				question: "What did Jesus do at the Last Supper to his disciples?",
-				options: [
-					"Gave them crowns",
-					"Washed their feet",
-					"Gave them swords",
-					"Anointed them",
-				],
-				correct: 1,
-			},
-			{
-				question: "Name the disciple who betrayed Jesus.",
-				options: ["Peter", "John", "Judas Iscariot", "Thomas"],
-				correct: 2,
-			},
-			{
-				question: "Which disciple denied Jesus three times?",
-				options: ["Judas", "Peter", "John", "James"],
-				correct: 1,
-			},
-			{
-				question: "What happened after Jesus was buried in the tomb?",
-				options: [
-					"He stayed dead",
-					"He rose again",
-					"Angels took him",
-					"He disappeared",
-				],
-				correct: 1,
-			},
-			{
-				question: "What day of the week did Jesus rise back to life?",
-				options: ["Friday", "Saturday", "Sunday", "Monday"],
-				correct: 2,
-			},
-			{
-				question: "How did Jesus leave Earth and go to Heaven?",
-				options: [
-					"In a chariot",
-					"He rose into the clouds",
-					"On a donkey",
-					"Through a portal",
-				],
-				correct: 1,
-			},
-			{
-				question: "How many books have the name John in them?",
-				options: ["1", "2", "3", "4"],
+				question: "Sino ang pumatay sa Filisteong higanteng si Goliat?",
+				options: ["Saul", "Jonatan", "Samuel", "David"],
 				correct: 3,
 			},
 			{
-				question: "What is the last book in the Bible?",
-				options: ["Jude", "Revelation", "3 John", "Hebrews"],
+				question: "Ilang taon nabuhay si Matusalem, ang pinakamatandang tao?",
+				options: ["777", "888", "969", "999"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang unang hari ng Israel na pinahiran ni Samuel?",
+				options: ["David", "Salomon", "Saul", "Jeroboam"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang birheng ina ng Panginoong Jesucristo?",
+				options: ["Elizabeth", "Maria", "Marta", "Ana"],
 				correct: 1,
 			},
 			{
-				question: "What four books tell about Jesus’ life on Earth?",
+				question: "Sino ang lalaking itinuring na ama sa lupa ng Panginoon?",
+				options: ["Zacarias", "Jose", "Simeon", "Juan"],
+				correct: 1,
+			},
+			{
+				question: "Saang dagat naglakad ang Panginoon sa ibabaw ng tubig?",
 				options: [
-					"Acts, Romans, Corinthians, Galatians",
-					"Matthew, Mark, Luke, John",
-					"Genesis, Exodus, Leviticus, Numbers",
-					"Psalms, Proverbs, Ecclesiastes, Song",
+					"Dagat Patay",
+					"Dagat na Pula",
+					"Dagat ng Galilea",
+					"Ilog Jordan",
+				],
+				correct: 2,
+			},
+			{
+				question:
+					"Ilang tinapay at isda ang ginamit ng Panginoon upang pakainin ang mahigit limang libo?",
+				options: [
+					"5 tinapay, 2 isda",
+					"7 tinapay, 3 isda",
+					"12 tinapay, 5 isda",
+					"4 tinapay, 1 isda",
+				],
+				correct: 0,
+			},
+			{
+				question:
+					"Ano ang ginawa ng Panginoon sa paa ng Kanyang mga alagad sa Huling Hapunan?",
+				options: [
+					"Pinahiran ng langis",
+					"Hinugasan",
+					"Hinalikan",
+					"Pinahiran ng pabango",
 				],
 				correct: 1,
 			},
 			{
-				question: "Which book did Jesus directly write?",
-				options: ["Revelation", "Matthew", "John", "None"],
+				question:
+					"Sino ang tatlong beses tumanggi sa Panginoon bago tumilaok ang manok?",
+				options: ["Judas", "Pedro", "Tomas", "Andres"],
+				correct: 1,
+			},
+			{
+				question: "Paano umakyat ang Panginoong Jesucristo sa langit?",
+				options: [
+					"Sa karwahe ng apoy",
+					"Siya’y dinala ng mga anghel",
+					"Siya’y umakyat sa alapaap",
+					"Sa pamamagitan ng hagdan",
+				],
+				correct: 2,
+			},
+			{
+				question: "Ilang aklat sa Bagong Tipan ang isinulat ni apostol Juan?",
+				options: ["Isa", "Dalawa", "Tatlumpu", "Apat"],
+				correct: 2,
+			},
+			{
+				question:
+					"Alin ang apat na Ebanghelyo na nagsasalaysay ng buhay ng Panginoon?",
+				options: [
+					"Mga Gawa, Roma, 1 Corinto, Galacia",
+					"Mateo, Marcos, Lucas, Juan",
+					"Genesis, Exodo, Levitico, Bilang",
+					"Mga Awit, Kawikaan, Eclesiastes, Cantares",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pinagbili ng kanyang mga kapatid sa mga Ismaelita?",
+				options: ["Moises", "Jose", "Benjamin", "Ruben"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang itinapon sa lungga ng mga leon dahil sa panalangin?",
+				options: ["Jeremias", "Daniel", "Ezequiel", "Isaias"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang humati sa Dagat na Pula sa harap ng mga Israelita?",
+				options: ["Josue", "Moises", "Aaron", "Caleb"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pinahiran ni Samuel bilang hari sa Bethlehem?",
+				options: ["Saul", "David", "Salomon", "Absalom"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nakipagbuno sa anghel hanggang madaling-araw?",
+				options: ["Abraham", "Jacob", "Moises", "Elias"],
+				correct: 1,
+			},
+			{
+				question: "Ano ang bagong pangalan na ibinigay ng Panginoon kay Jacob?",
+				options: ["Jose", "Israel", "Juda", "Benjamin"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nilamon ng malaking isda tatlong araw at tatlong gabi?",
+				options: ["Jonas", "Nahum", "Habacuc", "Obadias"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang kaibigang lubos na minahal ni David?",
+				options: ["Samuel", "Jonatan", "Natan", "Abner"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pinakamarunong na hari na nagtayo ng Templo?",
+				options: ["David", "Salomon", "Asa", "Josaphat"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang reyna na bumisita kay Salomon at nagdala ng mga regalo?",
+				options: [
+					"Reyna ng Egipto",
+					"Reyna ng Sheba",
+					"Reyna Ester",
+					"Reyna Jezabel",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang tinatawag na “propeta na umiiyak”?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang dinala sa langit sa nagniningas na karwahe?",
+				options: ["Elias", "Eliseo", "Enoc", "Moises"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang ipinagbili ng tatlumpung pirasong pilak?",
+				options: ["Jose", "Panginoong Jesucristo", "Samson", "Jeremias"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagbigti pagkatapos magkanulo sa Panginoon?",
+				options: ["Pedro", "Judas Iscariote", "Tomas", "Bartolome"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pumalit kay Judas bilang ikalabindalawang apostol?",
+				options: ["Bernabe", "Matias", "Pablo", "Silas"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sa ika-ilang araw pagkatapos ng Paskuwa dumating ang Espiritu Santo sa Pentecostes?",
+				options: ["Ika-40", "Ika-50", "Ika-7", "Ika-120"],
+				correct: 1,
+			},
+			{
+				question: "Ilang tao ang nasa loob ng arka ni Noe?",
+				options: ["Apat", "Anim", "Walo", "Labindalawa"],
+				correct: 2,
+			},
+			{
+				question: "Anong ibon ang unang pinakawalan ni Noe pagkatapos ng baha?",
+				options: ["Kalapati", "Uwak", "Agila", "Lawin"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pinakamatandang tao sa Kasulatan?",
+				options: ["Adan", "Noe", "Matusalem", "Enoc"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang nagtayo ng Templo sa Jerusalem?",
+				options: ["David", "Salomon", "Zorobabel", "Herodes"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang ama ni David?",
+				options: ["Isai", "Obed", "Boaz", "Salmon"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang pinakamalakas na hukom ng Israel?",
+				options: ["Gideon", "Debora", "Samson", "Samuel"],
+				correct: 2,
+			},
+			{
+				question:
+					"Sino ang nakalakad sa tubig kasama ang Panginoon nang sandali?",
+				options: ["Juan", "Pedro", "Andres", "Felipe"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang hindi naniniwala hanggang hinawakan ang mga sugat ng Panginoon?",
+				options: ["Pedro", "Juan", "Tomas", "Santiago"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang nagpasan ng krus ng Panginoon patungong Golgota?",
+				options: [
+					"Juan",
+					"Simon na taga-Cirene",
+					"Jose na taga-Arimatea",
+					"Nicodemo",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagbigay ng kanyang libingan para sa Panginoon?",
+				options: ["Nicodemo", "Jose na taga-Arimatea", "Pilato", "Caifas"],
+				correct: 1,
+			},
+			{
+				question: "Anong wika ang karaniwang ginamit sa Bagong Tipan?",
+				options: ["Hebreo", "Griyego", "Latin", "Arameo"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang iniligtas ng kanyang ina sa pamamagitan ng basket sa Nilo?",
+				options: ["Moises", "Aaron", "Josue", "Samuel"],
+				correct: 0,
+			},
+			{
+				question: "Ano ang unang salot sa Egipto?",
+				options: ["Tubig na naging dugo", "Palaka", "Balang", "Kadiliman"],
+				correct: 0,
+			},
+			{
+				question: "Saan ibinigay ng Panginoon ang Sampung Utos kay Moises?",
+				options: ["Bundok Horeb", "Bundok Sinai", "Bundok Sion", "Bundok Nebo"],
+				correct: 1,
+			},
+			{
+				question:
+					"Ano ang gintong guya na ginawa ng mga Israelita sa paanan ng bundok?",
+				options: [
+					"Gintong ahas",
+					"Gintong guya",
+					"Gintong kordero",
+					"Gintong toro",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang unang mataas na saserdote ng Israel?",
+				options: ["Eli", "Aaron", "Pinehas", "Samuel"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang propetang babae na humukom sa Israel?",
+				options: ["Ana", "Debora", "Hulda", "Miriam"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagwika: “Narito ako, sugin mo ako”?",
+				options: ["Samuel", "Isaias", "Jeremias", "Ezequiel"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pinahirang hari nang lihim sa Bethlehem?",
+				options: ["Saul", "David", "Salomon", "Adonias"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang kaaway na Filisteo na pinatay ni David?",
+				options: ["Goliat", "Achis", "Abimelec", "Hanan"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang anak ni David na nagrebelde laban sa kanya?",
+				options: ["Salomon", "Absalom", "Adonias", "Amnon"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang propeta na humarap kay David pagkatapos ng kasalanan kay Batsheba?",
+				options: ["Samuel", "Natan", "Gad", "Ahias"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang reyna na nagligtas sa mga Judio mula sa kamay ni Aman?",
+				options: ["Vasthi", "Ester", "Jezabel", "Athalia"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang propeta na dinala sa langit nang hindi nakaranas ng kamatayan?",
+				options: ["Elias", "Eliseo", "Enoc", "Moises"],
+				correct: 2,
+			},
+			{
+				question:
+					"Sino ang propeta na nakakita ng pangitain ng mga tuyot na buto?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
+				correct: 2,
+			},
+			{
+				question:
+					"Sino ang propeta na nagsabi: “Narito, ang birhen ay maglilihi”?",
+				options: ["Isaias", "Micah", "Jeremias", "Malaquias"],
+				correct: 0,
+			},
+			{
+				question:
+					"Sino ang propeta na hinulaan ang Betlehem bilang pook na isisilang ng Mesias?",
+				options: ["Isaias", "Micah", "Jeremias", "Daniel"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nagbautismo sa Panginoon at nakakita ng Espiritu na bumababa na parang kalapati?",
+				options: ["Pedro", "Juan na Tagapagbautismo", "Felipe", "Andres"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang alagad na tinawag na “Batong lalaki” ng Panginoon?",
+				options: ["Pedro", "Andres", "Juan", "Santiago"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang alagad na “minamahal ng Panginoon”?",
+				options: ["Pedro", "Santiago", "Juan", "Andres"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang naghugas ng paa ng mga alagad sa Huling Hapunan?",
+				options: ["Pedro", "Panginoong Jesucristo", "Judas", "Juan"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nagsabi: “Panginoon, kanino kami pupunta? Nasa iyo ang salita ng buhay na walang hanggan”?",
+				options: ["Pedro", "Tomas", "Felipe", "Judas (hindi Iscariote)"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang nagsabi: “Aking Panginoon at aking Diyos”?",
+				options: ["Pedro", "Juan", "Tomas", "Natanael"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang unang martir ng Kristiyanismo?",
+				options: ["Santiago", "Esteban", "Pablo", "Juan"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang dating maniningil ng buwis na naging apostol?",
+				options: ["Mateo", "Lucas", "Marcos", "Bartolome"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang dating manunulsol na naging apostol sa mga Hentil?",
+				options: ["Pedro", "Pablo", "Bernabe", "Silas"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagsulat ng Aklat ng mga Gawa?",
+				options: ["Pablo", "Pedro", "Juan", "Lucas"],
 				correct: 3,
 			},
 			{
-				question: "What were men trying to do at the Tower of Babel?",
-				options: [
-					"Reach heaven",
-					"Hide from God",
-					"Escape a flood",
-					"Worship idols",
-				],
-				correct: 0,
+				question: "Sino ang nagsulat ng Pahayag kay Juan?",
+				options: ["Pablo", "Pedro", "Santiago", "Juan"],
+				correct: 3,
 			},
 			{
-				question: "How did the 12 brothers get rid of Joseph?",
-				options: [
-					"Killed him",
-					"Sold him to slave traders",
-					"Left him in the desert",
-					"Threw him in the sea",
-				],
-				correct: 1,
-			},
-			{
-				question: "Where did the slave traders take Joseph?",
-				options: ["Canaan", "Egypt", "Babylon", "Midian"],
-				correct: 1,
-			},
-			{
-				question: "Who bought Joseph in Egypt?",
-				options: ["Pharaoh", "Potiphar", "Baker", "Cupbearer"],
-				correct: 1,
-			},
-			{
-				question: "What was the giant’s name that David killed?",
-				options: ["Goliath", "Og", "Nebuchadnezzar", "Nimrod"],
-				correct: 0,
-			},
-			{
-				question: "How did David kill Goliath?",
-				options: ["Sword", "Spear", "Slingshot and stone", "Bare hands"],
+				question: "Saang isla isinulat ni Juan ang Pahayag?",
+				options: ["Crete", "Cyprus", "Patmos", "Malta"],
 				correct: 2,
 			},
 			{
-				question: "True or False: Jesus was an only child.",
-				options: ["True", "False"],
+				question: "Ano ang kahulugan ng “Immanuel”?",
+				options: [
+					"Makapangyarihang Diyos",
+					"Diyos na kasama natin",
+					"Prinsipe ng Kapayapaan",
+					"Ama na walang hanggan",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang lalaking nag-alay ng tinapay at alak kay Abraham?",
+				options: ["Melchizedek", "Abimelec", "Lot", "Faraon"],
+				correct: 0,
+			},
+			{
+				question:
+					"Sino ang asawa ni Abraham na birhen nang ipinangako ang anak?",
+				options: ["Hagar", "Keturah", "Sara", "Rebeca"],
+				correct: 2,
+			},
+			{
+				question:
+					"Sino ang anak na ipinangako na isisilang kay Abraham at Sara?",
+				options: ["Ismael", "Isac", "Jacob", "Esau"],
 				correct: 1,
 			},
 			{
 				question:
-					"True or False: The Bible is the most popular book ever written (by copies sold).",
-				options: ["True", "False"],
-				correct: 0,
-			},
-			{
-				question: "True or False: Jesus turned water into wine.",
-				options: ["True", "False"],
-				correct: 0,
-			},
-			{
-				question: "True or False: Jesus welcomed children.",
-				options: ["True", "False"],
-				correct: 0,
-			},
-			{
-				question: "True or False: Everywhere Jesus went, people loved him.",
-				options: ["True", "False"],
+					"Sino ang babaeng nag-alay ng awit pagkatapos tumawid sa Dagat na Pula?",
+				options: ["Maria", "Miriam", "Debora", "Jael"],
 				correct: 1,
 			},
 			{
-				question: "True or False: Jesus obeyed his parents.",
-				options: ["True", "False"],
+				question: "Sino ang propetang hinulaan ang “Bagong Tipan”?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang propeta na nagsabi: “Isang daan sa ilang”?",
+				options: ["Isaias", "Malaquias", "Micah", "Hagai"],
 				correct: 0,
 			},
 			{
-				question: "True or False: Jesus stayed away from sinners.",
-				options: ["True", "False"],
+				question: "Sino ang propeta na nagdala ng sulat mula sa langit?",
+				options: ["Elias", "Eliseo", "Jonas", "Isaias"],
+				correct: 0,
+			},
+			{
+				question:
+					"Sino ang propeta na gumaling sa ketong sa pamamagitan ng pagligo sa Jordan?",
+				options: ["Giezi", "Naaman", "Benhaded", "Hazael"],
 				correct: 1,
 			},
 			{
 				question:
-					"True or False: Jesus said dirty hands make a person spiritually unclean.",
-				options: ["True", "False"],
+					"Sino ang propeta na nagpagaling ng lalaking nahulog mula sa bintana?",
+				options: ["Elias", "Eliseo", "Isaias", "Jeremias"],
 				correct: 1,
 			},
 			{
-				question: "True or False: Jesus knew he would be arrested and killed.",
-				options: ["True", "False"],
-				correct: 0,
-			},
-			{
-				question: "What does Jesus say is the first and greatest commandment?",
-				options: [
-					"Love your neighbor",
-					"Love God with all your heart",
-					"Honor your parents",
-					"Keep the Sabbath",
-				],
-				correct: 1,
-			},
-			{
-				question: "What is the 1st commandment?",
-				options: [
-					"No other gods",
-					"No idols",
-					"Don’t take God’s name in vain",
-					"Keep Sabbath",
-				],
-				correct: 0,
-			},
-			{
-				question: "What is the 5th commandment?",
-				options: [
-					"No murder",
-					"Honor your father and mother",
-					"No stealing",
-					"No adultery",
-				],
-				correct: 1,
-			},
-			{
-				question: "What is the 10th commandment?",
-				options: ["No false witness", "No coveting", "No stealing", "No idols"],
-				correct: 1,
-			},
-			{
-				question: "Who killed a giant with a stone?",
-				options: ["Saul", "Jonathan", "David", "Joshua"],
-				correct: 2,
-			},
-			{
-				question: "How many of Jesus’ brothers are named in the Bible?",
-				options: ["2", "3", "4", "5"],
-				correct: 2,
-			},
-			{
-				question: "Who was Jesus’ most famous cousin?",
-				options: ["John the Baptist", "James", "Peter", "Andrew"],
-				correct: 0,
-			},
-			{
-				question: "How many lepers did Jesus heal at one time?",
-				options: ["1", "10", "12", "100"],
+				question: "Sino ang propeta na nagpalutang ng palakol sa tubig?",
+				options: ["Elias", "Eliseo", "Samuel", "Natan"],
 				correct: 1,
 			},
 			{
 				question:
-					"What did the woman pour on Jesus’ feet at Simon the Leper’s home?",
-				options: ["Water", "Oil", "Expensive perfume", "Wine"],
+					"Sino ang propeta na nakakita ng “mga gulong sa loob ng gulong”?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
 				correct: 2,
 			},
 			{
-				question: "What was rolled away from the tomb?",
-				options: ["A curtain", "A large stone", "A gate", "A veil"],
-				correct: 1,
+				question:
+					"Sino ang propeta na isinulat ang “Mene, Mene, Tekel, Upharsin”?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
+				correct: 3,
 			},
 			{
-				question: "What job did Matthew have before following Jesus?",
-				options: ["Fisherman", "Carpenter", "Tax collector", "Soldier"],
-				correct: 2,
+				question: "Sino ang propeta na hinulaan ang “pitumpu’t pitong linggo”?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
+				correct: 3,
 			},
 			{
-				question: "Who killed 1,000 Philistines with a donkey’s jawbone?",
-				options: ["David", "Samson", "Gideon", "Saul"],
-				correct: 1,
-			},
-			{
-				question: "Who had a coat of many colors?",
-				options: ["Moses", "Joseph", "David", "Daniel"],
-				correct: 1,
-			},
-			{
-				question: "Who was thrown into the lions' den?",
-				options: ["Daniel", "David", "Joseph", "Jeremiah"],
-				correct: 0,
-			},
-			{
-				question: "Who parted the Red Sea?",
-				options: ["Joshua", "Moses", "Aaron", "Elijah"],
-				correct: 1,
-			},
-			{
-				question: "Who was the strongest judge?",
-				options: ["Gideon", "Deborah", "Samson", "Samuel"],
-				correct: 2,
-			},
-			{
-				question: "Who walked on water with Jesus for a moment?",
-				options: ["John", "Peter", "Andrew", "Philip"],
-				correct: 1,
-			},
-			{
-				question: "Who doubted Jesus rose until he touched the wounds?",
-				options: ["Peter", "John", "Thomas", "James"],
-				correct: 2,
-			},
-			{
-				question: "Who cut off the ear of the high priest’s servant?",
-				options: ["Peter", "John", "James", "Judas"],
-				correct: 0,
-			},
-			{
-				question: "Who fell asleep while Jesus prayed in Gethsemane?",
-				options: [
-					"Peter, James, John",
-					"All disciples",
-					"Only Judas",
-					"Only Peter",
-				],
-				correct: 0,
-			},
-			{
-				question: "Who carried Jesus’ cross?",
-				options: [
-					"John",
-					"Simon of Cyrene",
-					"Joseph of Arimathea",
-					"Nicodemus",
-				],
-				correct: 1,
-			},
-			{
-				question: "Who provided the tomb for Jesus?",
-				options: ["Nicodemus", "Joseph of Arimathea", "Pilate", "Caiaphas"],
-				correct: 1,
-			},
-			{
-				question: "What language was the New Testament mostly written in?",
-				options: ["Hebrew", "Greek", "Latin", "Aramaic"],
-				correct: 1,
-			},
-			{
-				question: "How many people were on Noah’s ark?",
-				options: ["4", "6", "8", "12"],
-				correct: 2,
-			},
-			{
-				question: "What bird did Noah first send out?",
-				options: ["Dove", "Raven", "Eagle", "Sparrow"],
-				correct: 1,
-			},
-			{
-				question: "Who wrestled with God?",
-				options: ["Jacob", "Moses", "Abraham", "David"],
-				correct: 0,
-			},
-			{
-				question: "What was Jacob’s name changed to?",
-				options: ["Israel", "Isaac", "Joseph", "Judah"],
-				correct: 0,
-			},
-			{
-				question: "Who was swallowed by a big fish?",
-				options: ["Jonah", "Noah", "Daniel", "Ezekiel"],
-				correct: 0,
-			},
-			{
-				question: "Who killed Goliath with one stone?",
-				options: ["Saul", "Jonathan", "David", "Abner"],
-				correct: 2,
-			},
-			{
-				question: "Who was David’s best friend?",
-				options: ["Samuel", "Jonathan", "Nathan", "Goliath"],
-				correct: 1,
-			},
-			{
-				question: "Who was the wisest man?",
-				options: ["David", "Solomon", "Moses", "Paul"],
-				correct: 1,
-			},
-			{
-				question: "What did Solomon build?",
-				options: ["A palace", "The Temple", "A tower", "An ark"],
-				correct: 1,
-			},
-			{
-				question: "Who visited Solomon and brought gifts?",
-				options: [
-					"Queen of Egypt",
-					"Queen of Sheba",
-					"Queen Esther",
-					"Queen Jezebel",
-				],
-				correct: 1,
-			},
-			{
-				question: "Who was the weeping prophet?",
-				options: ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
-				correct: 1,
-			},
-			{
-				question: "Who saw a vision of dry bones?",
-				options: ["Ezekiel", "Daniel", "Isaiah", "Jeremiah"],
-				correct: 0,
-			},
-			{
-				question: "Who was taken to heaven in a chariot of fire?",
-				options: ["Elijah", "Elisha", "Moses", "Enoch"],
-				correct: 0,
-			},
-			{
-				question: "Who was sold for 20 pieces of silver?",
-				options: ["Jesus", "Joseph", "Samson", "Jeremiah"],
-				correct: 1,
-			},
-			{
-				question: "Who was sold for 30 pieces of silver?",
-				options: ["Jesus", "Joseph", "Judas", "Peter"],
-				correct: 0,
-			},
-			{
-				question: "Who hanged himself after betraying Jesus?",
-				options: ["Peter", "Judas", "Thomas", "Philip"],
-				correct: 1,
-			},
-			{
-				question: "Who replaced Judas as an apostle?",
-				options: ["Barnabas", "Matthias", "Paul", "Silas"],
-				correct: 1,
-			},
-			{
-				question: "On what day did the Holy Spirit come at Pentecost?",
-				options: ["50th day after Passover", "40th day", "7th day", "1st day"],
+				question: "Sino ang propeta na dinala ng Espiritu sa ibang lugar?",
+				options: ["Ezequiel", "Felipe", "Elias", "Eliseo"],
 				correct: 0,
 			},
 		],
 		medium: [
 			{
-				question: "True or False: David wrote the entire book of Psalms.",
-				options: ["True", "False"],
+				question: "Totoo o Mali: Si David ang sumulat ng lahat ng Mga Awit.",
+				options: ["Totoo", "Mali"],
 				correct: 1,
 			},
 			{
-				question: "What is the shortest book in the Bible?",
-				options: ["Philemon", "2 John", "3 John", "Jude"],
+				question: "Ano ang pinakamaikling aklat sa Bagong Tipan?",
+				options: ["Filemon", "2 Juan", "3 Juan", "Judas"],
 				correct: 2,
 			},
 			{
-				question: "How many books are in the Bible?",
+				question: "Ilang aklat meron ang buong Biblia?",
 				options: ["39", "66", "73", "100"],
 				correct: 1,
 			},
 			{
-				question: "How many books in the Old Testament?",
+				question: "Ilang aklat ang nasa Lumang Tipan?",
 				options: ["27", "39", "46", "52"],
 				correct: 1,
 			},
 			{
-				question: "How many books in the New Testament?",
+				question: "Ilang aklat ang nasa Bagong Tipan?",
 				options: ["27", "39", "66", "12"],
 				correct: 0,
 			},
 			{
-				question: "Which New Testament book has Jesus’ Sermon on the Mount?",
-				options: ["Mark", "Luke", "Matthew", "John"],
+				question: "Saang Ebanghelyo matatagpuan ang Sermon sa Bundok?",
+				options: ["Marcos", "Lucas", "Mateo", "Juan"],
 				correct: 2,
 			},
 			{
-				question: "Who was David’s son that became king?",
-				options: ["Absalom", "Solomon", "Adonijah", "Jonathan"],
+				question: "Sino ang anak ni David na naging hari pagkatapos niya?",
+				options: ["Absalom", "Salomon", "Adonias", "Amnon"],
 				correct: 1,
 			},
 			{
-				question: "In what language was most of the Old Testament written?",
-				options: ["Greek", "Hebrew", "Aramaic", "Latin"],
+				question: "Anong wika ang karaniwang ginamit sa Lumang Tipan?",
+				options: ["Griyego", "Hebreo", "Arameo", "Latin"],
 				correct: 1,
 			},
 			{
-				question: "In what language was most of the New Testament written?",
-				options: ["Hebrew", "Greek", "Latin", "Aramaic"],
-				correct: 1,
-			},
-			{
-				question:
-					"Which human author wrote the most books in the New Testament?",
-				options: ["John", "Peter", "Luke", "Paul"],
+				question: "Sino ang sumulat ng pinakamaraming aklat sa Bagong Tipan?",
+				options: ["Juan", "Pedro", "Lucas", "Pablo"],
 				correct: 3,
 			},
 			{
-				question: "Which human author wrote the most words in the Bible?",
-				options: ["Paul", "Moses", "David", "Luke"],
+				question: "Sino ang sumulat ng pinakamaraming salita sa buong Biblia?",
+				options: ["Pablo", "Moises", "David", "Lucas"],
 				correct: 1,
 			},
 			{
-				question: "Who were Noah’s three sons?",
+				question: "Alin ang tatlong anak ni Noe?",
 				options: [
-					"Shem, Ham, Japheth",
-					"Cain, Abel, Seth",
-					"Isaac, Jacob, Esau",
-					"Moses, Aaron, Joshua",
+					"Sem, Cam, Jafet",
+					"Cain, Abel, Set",
+					"Isac, Jacob, Esau",
+					"Moises, Aaron, Josue",
 				],
 				correct: 0,
 			},
 			{
-				question: "How many people were saved on the ark?",
-				options: ["4", "6", "8", "12"],
+				question: "Sino ang tinawag ng Panginoon mula sa Ur ng mga Caldeo?",
+				options: ["Abram", "Lot", "Tera", "Haran"],
+				correct: 0,
+			},
+			{
+				question: "Ano ang bagong pangalan na ibinigay ng Panginoon kay Sarai?",
+				options: ["Rebeca", "Rachel", "Sara", "Lea"],
 				correct: 2,
 			},
 			{
-				question: "Who did God call out of Ur to move to Canaan?",
-				options: ["Abram", "Lot", "Terah", "Isaac"],
+				question: "Sino ang alipin ni Sara na naging ina ni Ismael?",
+				options: ["Hagar", "Bilha", "Zilpa", "Keturah"],
 				correct: 0,
 			},
 			{
-				question:
-					"Even though Abram and Sarah were too old, what did God promise them?",
-				options: ["Riches", "A son", "Land", "Victory"],
+				question: "Sino ang anak na ipinangako sa tipan kay Abraham?",
+				options: ["Ismael", "Isac", "Jacob", "Esau"],
 				correct: 1,
 			},
 			{
-				question: "What was Sarai’s name changed to?",
-				options: ["Rebekah", "Rachel", "Sarah", "Leah"],
+				question: "Sino ang pumili ng asawa ni Isac na si Rebeca?",
+				options: ["Abraham", "Ang lingkod ni Abraham", "Lot", "Ismael"],
+				correct: 1,
+			},
+			{
+				question: "Alin ang kambal na anak ni Isac?",
+				options: [
+					"Jacob at Esau",
+					"Ruben at Simeon",
+					"Jose at Benjamin",
+					"Manases at Efraim",
+				],
+				correct: 0,
+			},
+			{
+				question: "Ano ang ipinagbili ni Esau sa isang mangkok ng pagkain?",
+				options: [
+					"Kanyang mana",
+					"Kanyang primohenitura",
+					"Kanyang asawa",
+					"Kanyang tirahan",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang tumulong kay Jacob upang makuha ang pagpapala?",
+				options: ["Rachel", "Lea", "Rebeca", "Laban"],
 				correct: 2,
 			},
 			{
-				question: "Who was Abraham’s handmaid?",
-				options: ["Hagar", "Bilhah", "Zilpah", "Keturah"],
-				correct: 0,
-			},
-			{
-				question: "Who did Abraham send to find Isaac a wife?",
-				options: ["His servant", "Lot", "Ishmael", "Eliezer"],
-				correct: 0,
-			},
-			{
-				question: "Who did the servant choose as Isaac’s wife?",
-				options: ["Rachel", "Rebekah", "Leah", "Ruth"],
-				correct: 1,
-			},
-			{
-				question: "What were Isaac’s sons’ names?",
-				options: [
-					"Jacob and Esau",
-					"Reuben and Simeon",
-					"Joseph and Benjamin",
-					"Manasseh and Ephraim",
-				],
-				correct: 0,
-			},
-			{
-				question: "How did Esau provide food for the family?",
-				options: ["Farming", "Hunting", "Fishing", "Trading"],
-				correct: 1,
-			},
-			{
-				question: "What did Esau trade for a bowl of stew?",
-				options: ["His bow", "His birthright", "His wife", "His tent"],
-				correct: 1,
-			},
-			{
-				question: "Who tricked Isaac into giving Jacob the blessing?",
-				options: ["Jacob alone", "Rebekah", "Esau", "Laban"],
+				question:
+					"Sino ang unang asawa ni Jacob na ipinagtrabaho siya ng pitong taon?",
+				options: ["Lea", "Rachel", "Bilha", "Zilpa"],
 				correct: 1,
 			},
 			{
 				question:
-					"When Jacob met Laban, which daughter did he want to marry first?",
-				options: ["Leah", "Rachel", "Bilhah", "Zilpah"],
-				correct: 1,
+					"Ilang taon pang pinagtrabaho si Jacob upang makasal kay Rachel?",
+				options: ["Pito", "Labing-apat", "Dalawampu", "Tatlumpu"],
+				correct: 0,
 			},
 			{
-				question: "What did Laban make Jacob do to finally marry Rachel?",
+				question:
+					"Ano ang ginawa ng palumpong na hindi nasunog nang kausapin ng Panginoon si Moises?",
 				options: [
-					"Work 7 more years",
-					"Pay gold",
-					"Fight Esau",
-					"Build a house",
+					"Nagliyab nang walang nasusunog",
+					"Naging ahas",
+					"Naging tungkod",
+					"Naging krus",
 				],
 				correct: 0,
 			},
 			{
-				question: "What did God change Jacob’s name to?",
-				options: ["Israel", "Judah", "Joseph", "Benjamin"],
-				correct: 0,
-			},
-			{
-				question: "What did Moses’ staff turn into?",
-				options: ["A sword", "A snake", "A rod of fire", "A branch"],
-				correct: 1,
-			},
-			{
-				question: "What did God send to feed the Israelites in the desert?",
-				options: [
-					"Bread from heaven",
-					"Quail and manna",
-					"Fish and bread",
-					"Angels' food",
-				],
+				question: "Ilang salot ang ipinadala ng Panginoon sa Egipto?",
+				options: ["Pito", "Sampu", "Labindalawa", "Labinglima"],
 				correct: 1,
 			},
 			{
 				question:
-					"Who were the only two spies who said Canaan could be conquered?",
+					"Ano ang huling salot na pumatay sa lahat ng panganay sa Egipto?",
 				options: [
-					"Joshua and Caleb",
-					"Moses and Aaron",
-					"Nadab and Abihu",
-					"Gideon and Barak",
+					"Balang",
+					"Kadiliman",
+					"Pagkamatay ng mga panganay",
+					"Ulan ng apoy",
+				],
+				correct: 2,
+			},
+			{
+				question:
+					"Alin ang dalawang espiya na naniwala na kaya nilang sakupin ang Canaan?",
+				options: [
+					"Josue at Caleb",
+					"Moises at Aaron",
+					"Nadab at Abihu",
+					"Gideon at Barak",
 				],
 				correct: 0,
 			},
 			{
-				question: "What city’s walls fell after marching and shouting?",
-				options: ["Ai", "Jericho", "Lachish", "Gibeon"],
+				question:
+					"Saang lungsod tumumba ang pader pagkatapos ng pitong araw na pag-ikot?",
+				options: ["Ai", "Jericho", "Gabaon", "Lachis"],
 				correct: 1,
 			},
 			{
-				question: "Who was the woman judge of Israel?",
-				options: ["Ruth", "Deborah", "Esther", "Hannah"],
+				question:
+					"Sino ang hukom na babae na tumawag kay Barak laban kay Sisara?",
+				options: ["Ana", "Debora", "Jael", "Hulda"],
 				correct: 1,
 			},
 			{
-				question: "Who defeated the Midianites with 300 men?",
+				question:
+					"Sino ang tumalo sa mga Midianita gamit ang tatlong daang lalaki?",
 				options: ["Samson", "Gideon", "Saul", "David"],
 				correct: 1,
 			},
 			{
-				question: "Who took a Nazarite vow and fought Philistines?",
-				options: ["Samuel", "Saul", "Samson", "Goliath"],
+				question: "Sino ang hukom na may mahabang buhok at Nazarita?",
+				options: ["Samuel", "Saul", "Samson", "Eli"],
 				correct: 2,
 			},
 			{
-				question: "How did Samson die?",
+				question: "Paano namatay si Samson?",
 				options: [
-					"Old age",
-					"Pushing down temple pillars",
-					"In battle",
-					"Poison",
+					"Sa katandaan",
+					"Itinulak ang mga haligi ng templo",
+					"Sa labanan",
+					"Lason",
 				],
 				correct: 1,
 			},
 			{
-				question: "Who anointed Saul as the first king?",
-				options: ["David", "Samuel", "Nathan", "Gad"],
+				question: "Sino ang pumahid ng langis kay Saul bilang unang hari?",
+				options: ["David", "Samuel", "Natan", "Gad"],
 				correct: 1,
 			},
 			{
-				question: "What happened to the idol Dagon beside the Ark?",
-				options: [
-					"It fell and broke",
-					"It came alive",
-					"It burned",
-					"It disappeared",
-				],
-				correct: 0,
-			},
-			{
-				question: "How many times did David spare Saul’s life?",
-				options: ["Once", "Twice", "Three times", "Never"],
+				question: "Ilang beses pinatawad ni David ang buhay ni Saul?",
+				options: ["Isa", "Dalawa", "Tatlumpu", "Hindi kailanman"],
 				correct: 1,
 			},
 			{
-				question: "Where did David first spare Saul’s life?",
-				options: ["In a cave", "In a field", "In the palace", "In battle"],
-				correct: 0,
-			},
-			{
-				question: "Who was David’s son who rebelled against him?",
-				options: ["Solomon", "Absalom", "Adonijah", "Amnon"],
+				question: "Saan unang pinatawad ni David si Saul?",
+				options: ["Sa palasyo", "Sa kuweba", "Sa bukid", "Sa labanan"],
 				correct: 1,
 			},
 			{
-				question: "Who killed Absalom?",
-				options: ["David", "Joab", "Abishai", "Solomon"],
+				question:
+					"Sino ang anak ni David na nag-aklas at nagpahayag na hari sa Hebron?",
+				options: ["Salomon", "Absalom", "Adonias", "Amnon"],
 				correct: 1,
 			},
 			{
-				question: "What was David’s second major sin?",
-				options: ["Adultery", "Taking a census", "Murder", "Lying"],
+				question: "Sino ang pumatay kay Absalom habang nakabitin sa puno?",
+				options: ["David", "Joab", "Abisai", "Asahel"],
 				correct: 1,
 			},
 			{
-				question: "What did Solomon pray for when he became king?",
-				options: ["Wealth", "Long life", "Wisdom", "Many children"],
+				question:
+					"Ano ang hiniling ni Salomon sa Panginoon nang siya’y maging hari?",
+				options: ["Yaman", "Mahabang buhay", "Karunungan", "Maraming anak"],
 				correct: 2,
 			},
 			{
-				question: "How many wives did Solomon have?",
+				question: "Ilang asawa ang mayroon si Salomon?",
 				options: ["100", "300", "700", "1000"],
 				correct: 2,
 			},
 			{
-				question: "What happened to the kingdom after Solomon died?",
+				question: "Ano ang nangyari sa kaharian pagkatapos mamatay ni Salomon?",
+				options: ["Lumaki pa", "Nahati sa dalawa", "Nasakop", "Nagkaisa uli"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang sumakop sa kaharian ng Israel (hilagang sampung lipi)?",
+				options: ["Babilonia", "Asiria", "Egipto", "Persia"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang sumakop sa kaharian ng Juda?",
+				options: ["Asiria", "Babilonia", "Persia", "Roma"],
+				correct: 1,
+			},
+			{
+				question:
+					"Alin ang tatlong Hebreo na itinapon sa nagniningas na hurno?",
 				options: [
-					"It grew larger",
-					"It split into two",
-					"It was conquered",
-					"It became one again",
+					"Daniel, Shadrac, Meshac",
+					"Shadrac, Meshac, Abednego",
+					"Hanania, Misael, Azaria",
+					"Belteshazar, Abednego, Meshac",
 				],
 				correct: 1,
 			},
 			{
-				question: "Who conquered the northern kingdom of Israel?",
-				options: ["Babylon", "Assyria", "Egypt", "Persia"],
-				correct: 1,
-			},
-			{
-				question: "Who conquered the southern kingdom of Judah?",
-				options: ["Assyria", "Babylon", "Persia", "Rome"],
-				correct: 1,
-			},
-			{
-				question: "Who was thrown into the fiery furnace?",
-				options: [
-					"Daniel",
-					"Shadrach, Meshach, Abednego",
-					"Ezekiel",
-					"Jeremiah",
-				],
-				correct: 1,
-			},
-			{
-				question: "Who interpreted Nebuchadnezzar’s dream of the statue?",
-				options: ["Daniel", "Joseph", "Ezekiel", "Isaiah"],
+				question:
+					"Sino ang nagpaliwanag ng panaginip ni Nabucodonosor tungkol sa malaking rebulto?",
+				options: ["Daniel", "Jose", "Ezequiel", "Isaias"],
 				correct: 0,
 			},
 			{
-				question: "Who returned to rebuild Jerusalem’s walls?",
-				options: ["Ezra", "Nehemiah", "Zerubbabel", "Joshua"],
+				question: "Sino ang nagbalik upang itayo ang mga pader ng Jerusalem?",
+				options: ["Esdras", "Nehemias", "Zorobabel", "Josue"],
 				correct: 1,
 			},
 			{
-				question: "Who was queen and saved her people from genocide?",
-				options: ["Vashti", "Esther", "Jezebel", "Athalia"],
+				question: "Sino ang reyna na nagligtas sa mga Judio mula kay Aman?",
+				options: ["Vasthi", "Ester", "Jezabel", "Athalia"],
 				correct: 1,
 			},
 			{
-				question: "How many days was Lazarus dead before Jesus raised him?",
-				options: ["1", "2", "3", "4"],
+				question: "Ilang araw patay si Lazaro bago siya buhayin ng Panginoon?",
+				options: ["Isa", "Dalawa", "Tatlumpu", "Apat"],
 				correct: 3,
 			},
 			{
-				question: "What garden did Jesus pray in before his arrest?",
-				options: ["Eden", "Gethsemane", "Olives", "Paradise"],
+				question: "Saang hardin nanalangin ang Panginoon bago Siya dakpin?",
+				options: ["Eden", "Getsemani", "Olivo", "Paraiso"],
 				correct: 1,
 			},
 			{
-				question: "Who washed his hands during Jesus’ trial?",
-				options: ["Herod", "Pilate", "Caiaphas", "Annas"],
+				question:
+					"Sino ang naghugas ng kanyang mga kamay sa paghatol sa Panginoon?",
+				options: ["Herodes", "Pilato", "Caifas", "Anas"],
 				correct: 1,
 			},
 			{
-				question: "How many people saw the risen Jesus?",
-				options: ["12", "40", "120", "Over 500"],
-				correct: 3,
-			},
-			{
-				question: "Who preached the first sermon at Pentecost?",
-				options: ["Paul", "Peter", "John", "James"],
+				question:
+					"Gaano karaming tao ang nakakita sa muling nabuhay na Panginoon ayon kay Pablo?",
+				options: ["Mahigit 300", "Mahigit 500", "Mahigit 700", "Mahigit 1000"],
 				correct: 1,
 			},
 			{
-				question: "Who was the first Christian martyr?",
-				options: ["Peter", "James", "Stephen", "Paul"],
+				question:
+					"Sino ang nangaral sa unang Pentecostes pagkatapos ng pag-akyat ng Panginoon?",
+				options: ["Pablo", "Pedro", "Juan", "Santiago"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang unang martir ng iglesia?",
+				options: ["Pedro", "Santiago", "Esteban", "Pablo"],
 				correct: 2,
 			},
 			{
-				question: "What was Paul’s name before conversion?",
-				options: ["Simon", "Saul", "Silas", "Sergius"],
+				question: "Ano ang dating pangalan ni Pablo?",
+				options: ["Simon", "Saulo", "Silas", "Sergio"],
 				correct: 1,
 			},
 			{
-				question: "Who escaped Damascus in a basket?",
-				options: ["Peter", "Paul", "Barnabas", "John Mark"],
+				question: "Sino ang tumakas sa Damasco sa loob ng basket?",
+				options: ["Pedro", "Pablo", "Bernabe", "Juan Marcos"],
 				correct: 1,
 			},
 			{
-				question: "In what city were believers first called Christians?",
-				options: ["Jerusalem", "Antioch", "Ephesus", "Corinth"],
+				question: "Saang lungsod unang tinawag na “Kristiyano” ang mga alagad?",
+				options: ["Jerusalem", "Antioquia", "Efeso", "Corinto"],
 				correct: 1,
 			},
 			{
-				question: "Where is the Lord’s Prayer found?",
-				options: ["Matthew 6", "Luke 11", "Both", "John 17"],
+				question: "Saan matatagpuan ang Panalangin ng Panginoon?",
+				options: [
+					"Mateo 6 lamang",
+					"Lucas 11 lamang",
+					"Sa Mateo at Lucas",
+					"Juan 17",
+				],
 				correct: 2,
 			},
 			{
-				question: "Where is the Fruit of the Spirit listed?",
-				options: ["Romans 12", "Galatians 5", "Ephesians 4", "Colossians 3"],
+				question: "Saan nakatala ang Bunga ng Espiritu?",
+				options: ["Roma 12", "Galacia 5", "Efeso 4", "Colosas 3"],
 				correct: 1,
 			},
 			{
-				question: "How many fruits of the Spirit are there?",
+				question: "Ilan ang bunga ng Espiritu Santo?",
 				options: ["7", "9", "10", "12"],
 				correct: 1,
 			},
 			{
-				question: "Who wrote the book of Acts?",
-				options: ["Paul", "Peter", "John", "Luke"],
+				question: "Sino ang nagsulat ng Mga Gawa ng mga Apostoles?",
+				options: ["Pablo", "Pedro", "Juan", "Lucas"],
 				correct: 3,
 			},
 			{
-				question: "Who wrote Romans?",
-				options: ["Peter", "Paul", "James", "Jude"],
-				correct: 1,
-			},
-			{
-				question: "Which church did Paul write to about spiritual gifts?",
-				options: ["Rome", "Corinth", "Galatia", "Ephesus"],
-				correct: 1,
-			},
-			{
-				question: "Who was shipwrecked three times?",
-				options: ["Peter", "Paul", "John", "Barnabas"],
-				correct: 1,
-			},
-			{
-				question: "Which prisoner wrote letters from jail?",
-				options: ["Peter", "John", "Paul", "Silas"],
-				correct: 2,
-			},
-			{
-				question: "Who had a vision of a sheet with unclean animals?",
-				options: ["Paul", "Peter", "John", "Philip"],
-				correct: 1,
-			},
-			{
-				question: "Who baptized an Ethiopian official?",
-				options: ["Peter", "Paul", "Philip", "John"],
-				correct: 2,
-			},
-			{
-				question: "Who raised Tabitha (Dorcas) from the dead?",
-				options: ["Paul", "Peter", "Philip", "Barnabas"],
-				correct: 1,
-			},
-			{
-				question: "Who was the first Gentile convert in Acts?",
-				options: ["Lydia", "Ethiopian eunuch", "Cornelius", "Sergius Paulus"],
-				correct: 2,
-			},
-			{
-				question: "Which two missionaries argued and split up?",
-				options: [
-					"Peter & Paul",
-					"Paul & Barnabas",
-					"Barnabas & John Mark",
-					"Silas & Timothy",
-				],
-				correct: 1,
-			},
-			{
-				question: "What is the Armor of God described in?",
-				options: ["Romans", "Ephesians", "Philippians", "Colossians"],
-				correct: 1,
-			},
-			{
-				question: "Which book says “God is love”?",
-				options: ["John", "1 John", "Romans", "1 Corinthians"],
-				correct: 1,
-			},
-			{
-				question: "Which book calls Jesus “the Word”?",
-				options: ["Matthew", "Mark", "Luke", "John"],
-				correct: 3,
-			},
-			{
-				question: "Who wrote Revelation?",
-				options: ["Paul", "Peter", "James", "John"],
-				correct: 3,
-			},
-			{
-				question: "On what island was John when he wrote Revelation?",
-				options: ["Crete", "Cyprus", "Patmos", "Malta"],
-				correct: 2,
-			},
-			{
-				question: "Who was the high priest who condemned Jesus?",
-				options: ["Annas", "Caiaphas", "Gamaliel", "Hillel"],
-				correct: 1,
-			},
-			{
-				question: "Who was the rich young ruler who walked away sad?",
-				options: ["Nicodemus", "Joseph of Arimathea", "Zacchaeus", "Unnamed"],
-				correct: 3,
-			},
-			{
-				question: "Who climbed a tree to see Jesus?",
-				options: ["Nicodemus", "Zacchaeus", "Nathanael", "Lazarus"],
-				correct: 1,
-			},
-			{
-				question: "Which parable is about a father with two sons?",
-				options: ["Good Samaritan", "Prodigal Son", "Sower", "Talents"],
-				correct: 1,
-			},
-			{
-				question: "Which parable is about 10 virgins?",
-				options: ["Talents", "Wicked tenants", "Ten virgins", "Lost sheep"],
-				correct: 2,
-			},
-			{
-				question: "Who was stoned for preaching?",
-				options: ["Stephen", "James", "Paul", "Barnabas"],
-				correct: 0,
-			},
-			{
-				question: "Who survived being bitten by a viper?",
-				options: ["Peter", "Paul", "John", "Luke"],
-				correct: 1,
-			},
-			{
-				question: "Which epistle was written to a slave owner?",
-				options: ["Titus", "Philemon", "Timothy", "James"],
-				correct: 1,
-			},
-			{
-				question: "Who was Timothy’s grandmother?",
-				options: ["Lois", "Eunice", "Lydia", "Priscilla"],
-				correct: 0,
-			},
-			{
-				question: "Who was the female seller of purple?",
-				options: ["Lydia", "Priscilla", "Phoebe", "Euodia"],
-				correct: 0,
-			},
-			{
-				question:
-					"Which book says “the love of money is the root of all evil”?",
-				options: ["Proverbs", "Ecclesiastes", "1 Timothy", "James"],
-				correct: 2,
-			},
-			{
-				question: "Which Old Testament book never mentions God?",
-				options: ["Ruth", "Esther", "Song of Solomon", "Ecclesiastes"],
-				correct: 1,
-			},
-			{
-				question: "Who was Ruth’s famous grandson?",
-				options: ["Solomon", "David", "Jesse", "Obed"],
+				question: "Sino ang nagsulat ng Sulat sa mga taga-Roma?",
+				options: ["Pedro", "Pablo", "Santiago", "Judas"],
 				correct: 1,
 			},
 			{
 				question:
-					"Who said, “Your people shall be my people, and your God my God”?",
-				options: ["Rachel", "Ruth", "Naomi", "Orpah"],
+					"Saang iglesia isinulat ni Pablo ang tungkol sa mga kaloob ng Espiritu?",
+				options: ["Roma", "Corinto", "Galacia", "Efeso"],
 				correct: 1,
 			},
 			{
-				question: "Who was Boaz’s famous relative?",
-				options: ["Elimelech", "Naomi", "Ruth", "David"],
+				question:
+					"Sino ang tatlong beses na nakaranas ng pagkabagbag ng barko?",
+				options: ["Pedro", "Pablo", "Juan", "Bernabe"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagsulat ng mga sulat mula sa bilangguan?",
+				options: ["Pedro", "Juan", "Pablo", "Silas"],
+				correct: 2,
+			},
+			{
+				question:
+					"Sino ang nakakita ng pangitain ng malaking kumot na may mga hayop na marumi?",
+				options: ["Pablo", "Pedro", "Juan", "Felipe"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagbautismo sa isang taga-Etiopia na opisyal?",
+				options: ["Pedro", "Pablo", "Felipe", "Juan"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang nagbangon kay Tabita (Dorcas) mula sa mga patay?",
+				options: ["Pablo", "Pedro", "Felipe", "Bernabe"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang unang Hentil na naging Kristiyano sa Mga Gawa?",
+				options: ["Lidia", "Eunuco ng Etiopia", "Cornelio", "Sergio Paulo"],
+				correct: 2,
+			},
+			{
+				question: "Alin ang dalawang misyonero na nag-away at naghiwalay?",
+				options: [
+					"Pedro at Pablo",
+					"Pablo at Bernabe",
+					"Bernabe at Juan Marcos",
+					"Silas at Timoteo",
+				],
+				correct: 1,
+			},
+			{
+				question: "Saang sulat nakasulat ang Baluti ng Diyos?",
+				options: ["Roma", "Efeso", "Filipos", "Colosas"],
+				correct: 1,
+			},
+			{
+				question: "Saang aklat sinabi na “Ang Diyos ay pag-ibig”?",
+				options: ["Juan", "1 Juan", "Roma", "1 Corinto"],
+				correct: 1,
+			},
+			{
+				question: "Saang Ebanghelyo tinawag si Jesus na “ang Salita”?",
+				options: ["Mateo", "Marcos", "Lucas", "Juan"],
+				correct: 3,
+			},
+			{
+				question: "Sino ang nagsulat ng Aklat ng Pahayag?",
+				options: ["Pablo", "Pedro", "Santiago", "Juan"],
+				correct: 3,
+			},
+			{
+				question: "Sino ang pinakapunong saserdote na humatol sa Panginoon?",
+				options: ["Anas", "Caifas", "Gamaliel", "Hillel"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang mayamang kabataan na umalis na malungkot?",
+				options: [
+					"Nicodemo",
+					"Jose na taga-Arimatea",
+					"Zaqueo",
+					"Hindi binanggit ang pangalan",
+				],
+				correct: 3,
+			},
+			{
+				question:
+					"Sino ang umakyat sa puno ng sikamoro upang makita ang Panginoon?",
+				options: ["Nicodemo", "Zaqueo", "Natanael", "Lazaro"],
+				correct: 1,
+			},
+			{
+				question: "Alin ang talinghaga tungkol sa ama at dalawang anak?",
+				options: [
+					"Mabuting Samaritano",
+					"Alibughang Anak",
+					"Paghasik",
+					"Mga Talento",
+				],
+				correct: 1,
+			},
+			{
+				question: "Alin ang talinghaga tungkol sa sampung dalaga?",
+				options: [
+					"Mga Talento",
+					"Masamang Magsasaka",
+					"Sampung Dalaga",
+					"Nawawalang Tupa",
+				],
+				correct: 2,
+			},
+			{
+				question: "Sino ang binato hanggang mamatay dahil sa pangangaral?",
+				options: ["Esteban", "Santiago", "Pablo", "Bernabe"],
 				correct: 0,
 			},
 			{
-				question: "What does “Immanuel” mean?",
+				question: "Sino ang nakaligtas sa kagat ng ulupong sa Malta?",
+				options: ["Pedro", "Pablo", "Juan", "Lucas"],
+				correct: 1,
+			},
+			{
+				question:
+					"Saang sulat isinulat para kay Filemon tungkol sa aliping si Onesimo?",
+				options: ["Tito", "Filemon", "2 Timoteo", "Santiago"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang lola ni Timoteo?",
+				options: ["Lois", "Eunice", "Lidia", "Priscilla"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang babaeng nagbenta ng telang purpura sa Tesalonica?",
+				options: ["Lidia", "Priscilla", "Febe", "Euodia"],
+				correct: 0,
+			},
+			{
+				question:
+					"Saang aklat sinabi na “Ang pag-ibig sa salapi ay ugat ng lahat ng kasamaan”?",
+				options: ["Kawikaan", "Eclesiastes", "1 Timoteo", "Santiago"],
+				correct: 2,
+			},
+			{
+				question:
+					"Alin ang aklat sa Lumang Tipan na hindi binabanggit ang Diyos?",
+				options: ["Ruth", "Ester", "Awit ni Solomon", "Eclesiastes"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang sikat na apo ni Ruth?",
+				options: ["Salomon", "David", "Isai", "Obed"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nagsabi: “Ang iyong bayan ay magiging aking bayan, at ang iyong Diyos ay magiging aking Diyos”?",
+				options: ["Rachel", "Ruth", "Naomi", "Orpa"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang kilalang kamag-anak na manunubos ni Boaz?",
+				options: ["Elimelec", "Naomi", "Ruth", "David"],
+				correct: 0,
+			},
+			{
+				question: "Ano ang kahulugan ng “Immanuel”?",
 				options: [
-					"God with us",
-					"Prince of Peace",
-					"Mighty God",
-					"Everlasting Father",
+					"Diyos na kasama natin",
+					"Prinsipe ng Kapayapaan",
+					"Makapangyarihang Diyos",
+					"Ama na walang hanggan",
 				],
 				correct: 0,
 			},
 			{
-				question: "Which prophet foretold a virgin would conceive?",
-				options: ["Isaiah", "Jeremiah", "Micah", "Ezekiel"],
+				question: "Sino ang propetang naghula na isang birhen ang maglilihi?",
+				options: ["Isaias", "Jeremias", "Micah", "Ezequiel"],
 				correct: 0,
 			},
 			{
-				question: "Which prophet prophesied Bethlehem as Jesus’ birthplace?",
-				options: ["Isaiah", "Jeremiah", "Micah", "Hosea"],
+				question:
+					"Sino ang propetang naghula na sa Betlehem isisilang ang Mesias?",
+				options: ["Isaias", "Jeremias", "Micah", "Oseas"],
 				correct: 2,
 			},
 			{
-				question: "Which prophet saw a vision of wheels within wheels?",
-				options: ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
+				question:
+					"Sino ang propetang nakakita ng pangitain ng mga gulong sa loob ng gulong?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
 				correct: 2,
 			},
 			{
-				question: "Who was the prophet in Nineveh?",
-				options: ["Nahum", "Jonah", "Obadiah", "Amos"],
+				question: "Sino ang propetang ipinadala sa Nineve?",
+				options: ["Nahum", "Jonas", "Obadias", "Amos"],
 				correct: 1,
 			},
 		],
 		hard: [
 			{
-				question: "How many years did Methuselah live?",
+				question: "Ilang taon nabuhay si Matusalem?",
 				options: ["777", "888", "969", "999"],
 				correct: 2,
 			},
 			{
 				question:
-					"When Saul conquered the Amalekites, who did he keep alive against God’s command?",
-				options: ["King Agag", "King Amalek", "King Og", "King Sihon"],
+					"Nang talunin ni Saul ang mga Amalecita, sino ang buhay na iniwan labag sa utos ng Panginoon?",
+				options: ["Haring Agag", "Haring Amalec", "Haring Og", "Haring Sihon"],
 				correct: 0,
 			},
 			{
-				question: "Which books record all the kings of Israel and Judah?",
+				question:
+					"Alin ang mga aklat na nagtala ng lahat ng hari ng Israel at Juda?",
 				options: [
 					"1 & 2 Samuel",
-					"1 & 2 Kings, 1 & 2 Chronicles",
-					"Ezra & Nehemiah",
-					"1 & 2 Maccabees",
+					"1 & 2 Hari, 1 & 2 Cronica",
+					"Esdras & Nehemias",
+					"Maccabees",
 				],
 				correct: 1,
 			},
 			{
-				question: "How many kings ruled over the southern kingdom of Judah?",
+				question: "Ilang hari ang namuno sa kaharian ng Juda (timog)?",
 				options: ["19", "20", "21", "22"],
 				correct: 1,
 			},
 			{
-				question: "How many kings ruled over the northern kingdom of Israel?",
+				question: "Ilang hari ang namuno sa kaharian ng Israel (hilaga)?",
 				options: ["19", "20", "21", "22"],
 				correct: 0,
 			},
 			{
-				question: "Who conquered Judah and took Daniel captive?",
-				options: ["Assyria", "Babylon", "Persia", "Greece"],
+				question: "Sino ang sumakop sa Juda at binihag si Daniel?",
+				options: ["Asiria", "Babilonia", "Persia", "Grecia"],
 				correct: 1,
 			},
 			{
-				question: "Daniel’s three friends’ Babylonian names were:",
+				question:
+					"Alin ang mga pangalang Babilonio nina Shadrac, Meshac, at Abednego?",
 				options: [
-					"Shadrach, Meshach, Abednego",
-					"Hananiah, Mishael, Azariah",
-					"Belteshazzar, Abednego, Meshach",
-					"Azariah, Hananiah, Mishael",
+					"Hanania, Misael, Azaria",
+					"Shadrac, Meshac, Abednego",
+					"Belteshazar, Abednego, Meshac",
+					"Azaria, Hanania, Misael",
 				],
-				correct: 0,
-			},
-			{
-				question: "Who told Daniel the meaning of the ram and goat vision?",
-				options: ["Michael", "Gabriel", "Raphael", "Uriel"],
 				correct: 1,
 			},
 			{
-				question: "True or False: John the Baptist wore camel hair.",
-				options: ["True", "False"],
-				correct: 0,
-			},
-			{
-				question: "True or False: Jesus’ family once thought he was crazy.",
-				options: ["True", "False"],
-				correct: 0,
-			},
-			{
-				question: "Which Jewish leader visited Jesus at night?",
-				options: ["Gamaliel", "Nicodemus", "Joseph of Arimathea", "Annas"],
+				question:
+					"Sino ang nagpaliwanag kay Daniel ng pangitain ng lalaking tupa at kambing?",
+				options: ["Miguel", "Gabriel", "Rafael", "Uriel"],
 				correct: 1,
 			},
 			{
-				question: "How many days was Lazarus dead before Jesus raised him?",
+				question:
+					"Totoo o Mali: Si Juan na Tagapagbautismo ay nagsuot ng balahibo ng kamelyo.",
+				options: ["Totoo", "Mali"],
+				correct: 0,
+			},
+			{
+				question:
+					"Totoo o Mali: Minsan ay inakala ng pamilya ng Panginoon na Siya’y nawala sa katinuan.",
+				options: ["Totoo", "Mali"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang Pariseong dumalaw sa Panginoon sa gabi?",
+				options: ["Gamaliel", "Nicodemo", "Jose na taga-Arimatea", "Anas"],
+				correct: 1,
+			},
+			{
+				question: "Ilang araw patay si Lazaro bago siya buhayin ng Panginoon?",
 				options: ["2", "3", "4", "7"],
 				correct: 2,
 			},
 			{
-				question: "Name of the demon cast out of the Gerasene man:",
-				options: ["Beelzebub", "Legion", "Abaddon", "Asmodeus"],
+				question: "Ano ang pangalan ng demonyong inilabas sa lalaki sa Geresa?",
+				options: ["Beelzebul", "Legion", "Abaddon", "Asmodeus"],
 				correct: 1,
 			},
 			{
-				question: "Who appeared with Jesus at the Transfiguration?",
+				question:
+					"Sino-sino ang lumitaw kasama ng Panginoon sa Pagbabagong-anyo?",
 				options: [
-					"Elijah & Moses",
-					"Abraham & David",
-					"Enoch & Elijah",
-					"David & Solomon",
+					"Elias at Moises",
+					"Abraham at David",
+					"Enoc at Elias",
+					"David at Salomon",
 				],
 				correct: 0,
 			},
 			{
-				question: "Who was blind and shouted “Son of David”?",
-				options: ["Bartimaeus", "Zacchaeus", "Malchus", "Lazarus"],
+				question:
+					"Sino ang bulag na sumigaw ng “Anak ni David, mahabag po kayo sa akin”?",
+				options: ["Bartimeo", "Zaqueo", "Malco", "Lazaro"],
 				correct: 0,
 			},
 			{
-				question: "Who gave Jesus a crown of thorns?",
-				options: ["Pilate", "Herod", "Roman soldiers", "Jewish leaders"],
+				question: "Sino ang naglagay ng koronang tinik sa ulo ng Panginoon?",
+				options: [
+					"Pilato",
+					"Herodes",
+					"Mga sundalong Romano",
+					"Mga punong saserdote",
+				],
 				correct: 2,
 			},
 			{
-				question: "How many people saw the risen Christ according to Paul?",
-				options: ["Over 300", "Over 500", "Over 700", "Over 1000"],
+				question:
+					"Gaano karaming tao ang nakakita sa muling nabuhay na Panginoon ayon sa 1 Corinto 15?",
+				options: ["Mahigit 300", "Mahigit 500", "Mahigit 700", "Mahigit 1000"],
 				correct: 1,
 			},
 			{
-				question: "Who preached at Pentecost?",
-				options: ["Paul", "Peter", "James", "John"],
+				question: "Sino ang nangaral sa unang Pentecostes ng iglesia?",
+				options: ["Pablo", "Pedro", "Santiago", "Juan"],
 				correct: 1,
 			},
 			{
-				question: "Who lied to the Holy Spirit and died?",
+				question:
+					"Sino ang mag-asawang nagsinungaling sa Espiritu Santo at namatay?",
 				options: [
-					"Ananias & Sapphira",
-					"Simon the Sorcerer",
-					"Elymas",
+					"Ananias at Safira",
+					"Simon na Mangkukulam",
+					"Elimas",
 					"Demas",
 				],
 				correct: 0,
 			},
 			{
-				question: "How many deacons were chosen in Acts 6?",
+				question: "Ilan ang mga diakono na hinirang sa Mga Gawa 6?",
 				options: ["5", "7", "12", "70"],
 				correct: 1,
 			},
 			{
-				question: "Peter’s vision of unclean animals meant what?",
+				question:
+					"Ano ang kahulugan ng pangitain ni Pedro tungkol sa mga hayop na marumi?",
 				options: [
-					"Diet laws ended",
-					"Gentiles can be saved",
-					"Both",
-					"Neither",
+					"Tapos na ang mga batas tungkol sa pagkain",
+					"Maaari nang maligtas ang mga Hentil",
+					"Pareho",
+					"Wala sa dalawa",
 				],
-				correct: 1,
-			},
-			{
-				question: "In what city were disciples first called Christians?",
-				options: ["Jerusalem", "Antioch", "Ephesus", "Corinth"],
-				correct: 1,
-			},
-			{
-				question: "Paul saw a vision of a man from what region?",
-				options: ["Macedonia", "Asia", "Carthage", "Spain"],
-				correct: 0,
-			},
-			{
-				question: "Where is the Fruit of the Spirit found?",
-				options: [
-					"Galatians 5",
-					"Ephesians 5",
-					"Colossians 3",
-					"Philippians 4",
-				],
-				correct: 0,
-			},
-			{
-				question: "Which disciple took care of Mary after Jesus died?",
-				options: ["Peter", "James", "John", "Andrew"],
 				correct: 2,
 			},
 			{
-				question: "Who requested Jesus’ body for burial?",
+				question: "Saang lungsod unang tinawag na Kristiyano ang mga alagad?",
+				options: ["Jerusalem", "Antioquia", "Efeso", "Corinto"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nakakita ng pangitain ng lalaking taga-Macedonia?",
+				options: ["Pedro", "Pablo", "Silas", "Timoteo"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang alagad na nag-alaga kay Maria pagkatapos ng kamatayan ng Panginoon?",
+				options: ["Pedro", "Santiago", "Juan", "Andres"],
+				correct: 2,
+			},
+			{
+				question: "Sino ang humiling ng katawan ng Panginoon para ilibing?",
 				options: [
-					"Nicodemus",
-					"Joseph of Arimathea",
+					"Nicodemo",
+					"Jose na taga-Arimatea",
 					"Gamaliel",
-					"Simon of Cyrene",
+					"Simon na taga-Cirene",
 				],
 				correct: 1,
 			},
 			{
-				question: "What reward did Jesus promise the 12 apostles?",
-				options: ["Riches", "Thrones judging Israel", "Long life", "Fame"],
-				correct: 1,
-			},
-			{
-				question: "Who hid spies under flax on her roof?",
-				options: ["Rahab", "Deborah", "Jael", "Delilah"],
-				correct: 0,
-			},
-			{
-				question: "In which book is Nebuchadnezzar’s dream statue?",
-				options: ["Daniel", "Ezekiel", "Revelation", "Isaiah"],
-				correct: 0,
-			},
-			{
-				question: "Which tribe had no land inheritance?",
-				options: ["Judah", "Levi", "Benjamin", "Dan"],
-				correct: 1,
-			},
-			{
-				question: "Who was king of Judah when Israel fell to Assyria?",
-				options: ["Ahaz", "Hezekiah", "Josiah", "Manasseh"],
-				correct: 1,
-			},
-			{
-				question: "Who was Abraham’s nephew?",
-				options: ["Isaac", "Lot", "Laban", "Nahor"],
-				correct: 1,
-			},
-			{
-				question: "Who knew the Scriptures from childhood?",
-				options: ["Timothy", "Titus", "John Mark", "Silas"],
-				correct: 0,
-			},
-			{
-				question: "Who delivered Paul’s letter to Philemon?",
-				options: ["Tychicus", "Onesimus", "Epaphroditus", "Timothy"],
-				correct: 0,
-			},
-			{
-				question: "Who was Caiaphas’ father-in-law?",
-				options: ["Gamaliel", "Annas", "Hillel", "Nicodemus"],
-				correct: 1,
-			},
-			{
-				question: "What happened to Nebuchadnezzar for 7 years?",
+				question:
+					"Anong pangako ang ibinigay ng Panginoon sa labindalawang apostoles?",
 				options: [
-					"Lived like an animal",
-					"Lost his kingdom",
-					"Went blind",
-					"Was imprisoned",
+					"Yaman",
+					"Mga trono na huhukom sa Israel",
+					"Mahabang buhay",
+					"Karangalan",
+				],
+				correct: 1,
+			},
+			{
+				question: "Sino ang nagtago ng mga espiya sa ilalim ng flax sa bubong?",
+				options: ["Rahab", "Debora", "Jael", "Delila"],
+				correct: 0,
+			},
+			{
+				question:
+					"Saang aklat matatagpuan ang pangitain ni Nabucodonosor tungkol sa malaking rebulto?",
+				options: ["Daniel", "Ezequiel", "Pahayag", "Isaias"],
+				correct: 0,
+			},
+			{
+				question: "Aling lipi ang walang mana sa lupaing ipinamana?",
+				options: ["Juda", "Levi", "Benjamin", "Dan"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang hari ng Juda nang mahulog ang Israel sa Asiria?",
+				options: ["Ahaz", "Ezequias", "Josias", "Manases"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pamangkin ni Abraham?",
+				options: ["Isac", "Lot", "Laban", "Nahor"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nakakilala sa Kasulatan mula pa sa kanyang pagkabata?",
+				options: ["Timoteo", "Tito", "Juan Marcos", "Silas"],
+				correct: 0,
+			},
+			{
+				question: "Sino ang naghatid ng sulat ni Pablo kay Filemon?",
+				options: ["Tychicus", "Onesimo", "Epafrodito", "Timoteo"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang biyenan ni Caifas?",
+				options: ["Gamaliel", "Anas", "Hillel", "Nicodemo"],
+				correct: 1,
+			},
+			{
+				question: "Ano ang nangyari kay Nabucodonosor sa loob ng pitong taon?",
+				options: [
+					"Namuhay na parang hayop",
+					"Nawala ang kaharian",
+					"Nabulag",
+					"Nabilanggo",
 				],
 				correct: 0,
 			},
 			{
 				question:
-					"When the disciples thought Jesus was a ghost on water, what was he?",
-				options: ["An angel", "A spirit", "Walking on water", "A vision"],
+					"Nang akalain ng mga alagad na multo ang Panginoon sa ibabaw ng tubig, ano talaga Siya?",
+				options: ["Anghel", "Espiritu", "Naglalakad sa tubig", "Pangitain"],
 				correct: 2,
 			},
 			{
-				question: "Who was to be named Zacharias until Elizabeth intervened?",
-				options: ["Jesus", "John the Baptist", "Samuel", "Elijah"],
+				question:
+					"Sino ang dapat tawagin na Zacarias kung hindi pinigilan ni Elizabeth?",
+				options: ["Jesus", "Juan na Tagapagbautismo", "Samuel", "Elias"],
 				correct: 1,
 			},
 			{
-				question: "What did Melchizedek give Abraham?",
-				options: ["Bread and wine", "Gold and silver", "A sword", "A covenant"],
+				question: "Ano ang inialay ni Melchizedek kay Abraham?",
+				options: ["Tinapay at alak", "Ginto at pilak", "Espada", "Tipan"],
 				correct: 0,
 			},
 			{
-				question: "Who prayed for a child at Shiloh?",
-				options: ["Sarah", "Rebekah", "Hannah", "Rachel"],
+				question: "Sino ang nanalangin ng anak sa Shiloh?",
+				options: ["Sara", "Rebeca", "Ana", "Rachel"],
 				correct: 2,
 			},
 			{
-				question: "Which two tribes were named after Joseph’s sons?",
+				question: "Aling dalawang lipi ang ipinangalan sa mga anak ni Jose?",
 				options: [
-					"Ephraim & Manasseh",
-					"Dan & Naphtali",
-					"Gad & Asher",
-					"Issachar & Zebulun",
+					"Efraim at Manases",
+					"Dan at Neftali",
+					"Gad at Aser",
+					"Isacar at Zabulon",
 				],
 				correct: 0,
 			},
 			{
-				question: "How many minor prophets are there?",
+				question: "Ilan ang maliliit na propeta?",
 				options: ["10", "12", "15", "17"],
 				correct: 1,
 			},
 			{
-				question: "Who wrote most of the Proverbs?",
-				options: ["David", "Solomon", "Lemuel", "Agur"],
+				question: "Sino ang sumulat ng karamihan sa Mga Kawikaan?",
+				options: ["David", "Salomon", "Lemuel", "Agur"],
 				correct: 1,
 			},
 			{
-				question: "Who was Hosea married to?",
-				options: ["Gomer", "Delilah", "Jezebel", "Rahab"],
+				question: "Sino ang asawa ni Oseas?",
+				options: ["Gomer", "Delila", "Jezabel", "Rahab"],
 				correct: 0,
 			},
 			{
-				question: "Which prophet was told to marry a prostitute?",
-				options: ["Hosea", "Amos", "Jonah", "Micah"],
+				question: "Sino ang propetang inutusang mag-asawa ng patutot?",
+				options: ["Oseas", "Amos", "Jonas", "Micah"],
 				correct: 0,
 			},
 			{
-				question: "Which prophet was in the belly of a fish 3 days?",
-				options: ["Nahum", "Jonah", "Habakkuk", "Zephaniah"],
+				question:
+					"Sino ang propetang nasa tiyan ng malaking isda tatlong araw?",
+				options: ["Nahum", "Jonas", "Habacuc", "Sofonias"],
 				correct: 1,
 			},
 			{
-				question: "Who prophesied about the “valley of dry bones”?",
-				options: ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
+				question:
+					"Sino ang propetang naghula tungkol sa “laman na mabubuhay sa mga tuyot na buto”?",
+				options: ["Isaias", "Jeremias", "Ezequiel", "Daniel"],
 				correct: 2,
 			},
 			{
-				question: "Who interpreted the writing on the wall?",
-				options: ["Daniel", "Ezekiel", "Isaiah", "Jeremiah"],
+				question:
+					"Sino ang nagpaliwanag ng “Mene, Mene, Tekel, Upharsin” sa pader?",
+				options: ["Daniel", "Ezequiel", "Isaias", "Jeremias"],
 				correct: 0,
 			},
 			{
-				question: "What does “Mene, Mene, Tekel, Parsin” mean?",
+				question: "Ano ang kahulugan ng “Mene, Mene, Tekel, Upharsin”?",
 				options: [
-					"Numbered, weighed, divided",
-					"Repent or perish",
-					"Kingdom lost",
-					"God has won",
+					"Binilang, tinimbang, nahati",
+					"Magsisi o mapapahamak",
+					"Nawala ang kaharian",
+					"Nanalo ang Diyos",
 				],
 				correct: 0,
 			},
 			{
-				question: "Who was the last king of Judah?",
-				options: ["Jehoiachin", "Zedekiah", "Josiah", "Jehoiakim"],
+				question: "Sino ang huling hari ng Juda?",
+				options: ["Joiachin", "Zedekias", "Josias", "Joacim"],
 				correct: 1,
 			},
 			{
-				question: "Who threw Jeremiah into a cistern?",
-				options: ["Zedekiah", "Nebuchadnezzar", "Officials", "Ebed-Melech"],
+				question: "Sino ang nag-utos na ihulog si Jeremias sa balon?",
+				options: ["Zedekias", "Nabucodonosor", "Mga opisyal", "Ebed-melec"],
 				correct: 2,
 			},
 			{
-				question: "Who pulled Jeremiah out of the cistern?",
-				options: ["Baruch", "Ebed-Melech", "Gedaliah", "Seraiah"],
+				question: "Sino ang nag-ahon kay Jeremias mula sa balon?",
+				options: ["Baruc", "Ebed-melec", "Gedalias", "Seraias"],
 				correct: 1,
 			},
 			{
-				question: "Who was the first high priest of Israel?",
-				options: ["Eli", "Aaron", "Phinehas", "Samuel"],
+				question: "Sino ang unang mataas na saserdote ng Israel?",
+				options: ["Eli", "Aaron", "Pinehas", "Samuel"],
 				correct: 1,
 			},
 			{
-				question: "Who was Samuel’s wicked sons?",
+				question: "Alin ang masasamang anak ni Eli?",
 				options: [
-					"Joel and Abijah",
-					"Hophni and Phinehas",
-					"Nadab and Abihu",
-					"Gershom and Eliezer",
+					"Joel at Abias",
+					"Hofni at Pinehas",
+					"Nadab at Abihu",
+					"Gershom at Eliezer",
 				],
 				correct: 1,
 			},
 			{
-				question: "Who was the last judge of Israel?",
+				question: "Sino ang huling hukom ng Israel?",
 				options: ["Eli", "Samuel", "Samson", "Saul"],
 				correct: 1,
 			},
 			{
-				question: "What woman drove a tent peg through Sisera’s head?",
-				options: ["Deborah", "Jael", "Rahab", "Delilah"],
+				question: "Sino ang babaeng nagbaon ng pako sa ulo ni Sisara?",
+				options: ["Debora", "Jael", "Rahab", "Delila"],
 				correct: 1,
 			},
 			{
-				question: "Who cut Samson’s hair?",
-				options: ["Delilah", "A servant", "Philistine lords", "Samson himself"],
+				question: "Sino ang nagpugot ng buhok ni Samson?",
+				options: [
+					"Delila",
+					"Isang lingkod",
+					"Mga panginoon ng Filisteo",
+					"Si Samson mismo",
+				],
 				correct: 0,
 			},
 			{
-				question: "Who was the left-handed judge that killed Eglon?",
-				options: ["Ehud", "Shamgar", "Othniel", "Tola"],
+				question: "Sino ang kaliweteng hukom na pumatay kay Eglon?",
+				options: ["Ehud", "Samgar", "Otoniel", "Tola"],
 				correct: 0,
 			},
 			{
-				question: "Who vowed his daughter because of a victory?",
-				options: ["Gideon", "Jephthah", "Ibzan", "Abdon"],
+				question: "Sino ang nangako ng kanyang anak dahil sa tagumpay?",
+				options: ["Gideon", "Jefte", "Ibzam", "Abdon"],
 				correct: 1,
 			},
 			{
-				question: "Who stole Micah’s idols and priest?",
-				options: ["Philistines", "Danites", "Benjaminites", "Ammonites"],
+				question: "Sino ang nagnakaw ng mga dios-diosan at saserdote ni Mica?",
+				options: [
+					"Mga Filisteo",
+					"Mga Danita",
+					"Mga Benjaminita",
+					"Mga Amonita",
+				],
 				correct: 1,
 			},
 			{
-				question: "Which tribe almost wiped out Benjamin?",
-				options: ["Judah", "Ephraim", "All Israel", "Levi"],
+				question: "Aling lipi ang halos napuksa ng iba pang lipi ng Israel?",
+				options: ["Juda", "Efraim", "Lahat ng Israel", "Levi"],
 				correct: 2,
 			},
 			{
-				question: "Who was Ruth’s kinsman-redeemer?",
-				options: ["Boaz", "Elimelech", "Naomi’s brother", "Obed"],
+				question: "Sino ang manunubos na kamag-anak ni Ruth?",
+				options: ["Boaz", "Elimelec", "Kapatid ni Naomi", "Obed"],
 				correct: 0,
 			},
 			{
-				question: "Who was Obed’s son?",
-				options: ["Jesse", "David", "Solomon", "Eliab"],
+				question: "Sino ang anak ni Obed?",
+				options: ["Isai", "David", "Salomon", "Eliab"],
 				correct: 0,
 			},
 			{
-				question: "Who was Jesse’s father?",
-				options: ["Obed", "Boaz", "Salmon", "Nahshon"],
+				question: "Sino ang ama ni Isai?",
+				options: ["Obed", "Boaz", "Salmon", "Naason"],
 				correct: 0,
 			},
 			{
-				question: "Who was the prophet during David’s reign?",
-				options: ["Samuel", "Nathan", "Gad", "All of them"],
+				question: "Sino ang propeta sa panahon ni David (bukod kay Samuel)?",
+				options: ["Samuel", "Natan", "Gad", "Lahat ng nabanggit"],
 				correct: 3,
 			},
 			{
-				question: "Who moved the Ark on a new cart (wrong way)?",
-				options: ["David", "Uzzah", "Abinadab", "Obed-Edom"],
+				question:
+					"Sino ang gumamit ng bagong karo sa pagdadala ng Kaban (mali ang paraan)?",
+				options: ["David", "Uza", "Abinadab", "Obed-edom"],
 				correct: 0,
 			},
 			{
-				question: "Who died touching the Ark?",
-				options: ["Uzzah", "Ahio", "Obed-Edom", "Abinadab"],
+				question: "Sino ang namatay nang hipuin ang Kaban ng Tipan?",
+				options: ["Uza", "Ahio", "Obed-edom", "Abinadab"],
 				correct: 0,
 			},
 			{
-				question: "Who danced before the Lord when the Ark came to Jerusalem?",
-				options: ["David", "Michal", "Jonathan", "Abner"],
+				question:
+					"Sino ang sumayaw sa harap ng Panginoon nang dalhin ang Kaban sa Jerusalem?",
+				options: ["David", "Michal", "Jonatan", "Abner"],
 				correct: 0,
 			},
 			{
-				question: "Who despised David for dancing?",
-				options: ["Saul", "Michal", "Joab", "Abner"],
+				question: "Sino ang humamak kay David dahil sa pagsasayaw?",
+				options: ["Saul", "Michal", "Joab", " Abner"],
 				correct: 1,
 			},
 			{
-				question: "Who killed a lion in a pit on a snowy day?",
-				options: ["David", "Benaiah", "Abishai", "Samson"],
+				question: "Sino ang pumatay ng leon sa hukay nang nagyeyelo?",
+				options: ["David", "Benaias", "Abisai", "Samson"],
 				correct: 1,
 			},
 			{
-				question: "Who was the commander who killed Absalom?",
-				options: ["Joab", "Abishai", "Ittai", "Amasa"],
+				question: "Sino ang kumander na pumatay kay Absalom?",
+				options: ["Joab", "Abisai", "Ittai", "Amasa"],
 				correct: 0,
 			},
 			{
-				question: "Who rebelled and declared himself king in Hebron?",
-				options: ["Absalom", "Adonijah", "Sheba", "Jeroboam"],
+				question:
+					"Sino ang nagrebelde at nagpahayag na hari sa Hebron pagkatapos ni David?",
+				options: ["Absalom", "Adonias", "Seba", "Jeroboam"],
 				correct: 1,
 			},
 			{
-				question: "Who said “I alone am left” before God corrected him?",
-				options: ["Elijah", "Elisha", "Micaiah", "Isaiah"],
+				question:
+					"Sino ang nagsabi: “Ako lamang ang natira” bago siya itama ng Panginoon?",
+				options: ["Elias", "Eliseo", "Micaiah", "Isaias"],
 				correct: 0,
 			},
 			{
-				question: "How many prophets of Baal did Elijah challenge?",
+				question: "Ilan ang mga propeta ni Baal na hinamon ni Elias sa Carmel?",
 				options: ["400", "450", "500", "850"],
 				correct: 1,
 			},
 			{
-				question: "Who ran faster than a chariot?",
-				options: ["Elijah", "Elisha", "Gehazi", "Ahaziah"],
+				question: "Sino ang tumakbo nang mas mabilis kaysa karwahe ng hari?",
+				options: ["Elias", "Eliseo", "Giezi", "Ahazias"],
 				correct: 0,
 			},
 			{
-				question: "Who saw Elijah taken to heaven?",
-				options: ["Elisha", "Gehazi", "Sons of prophets", "All of them"],
-				correct: 0,
-			},
-			{
-				question: "Who received a double portion of Elijah’s spirit?",
-				options: ["Elisha", "Gehazi", "Naaman", "Jonah"],
-				correct: 0,
-			},
-			{
-				question: "Who was healed of leprosy in the Jordan?",
-				options: ["Gehazi", "Naaman", "Benhadad", "Hazael"],
-				correct: 1,
-			},
-			{
-				question: "Who got leprosy for lying?",
-				options: ["Gehazi", "Uzziah", "Miriam", "Naaman"],
-				correct: 0,
-			},
-			{
-				question: "Who was king when the book of the law was found?",
-				options: ["Hezekiah", "Josiah", "Manasseh", "Amon"],
-				correct: 1,
-			},
-			{
-				question: "Who was the most evil king of Judah?",
-				options: ["Ahaz", "Manasseh", "Jehoiakim", "Zedekiah"],
-				correct: 1,
-			},
-			{
-				question: "Who let the people return from Babylon?",
-				options: ["Nebuchadnezzar", "Cyrus", "Darius", "Artaxerxes"],
-				correct: 1,
-			},
-			{
-				question: "Who opposed the rebuilding of the temple?",
-				options: ["Sanballat & Tobiah", "Haman", "Goliath", "Geshem"],
-				correct: 0,
-			},
-			{
-				question:
-					"Who read the law to the people standing on a wooden platform?",
-				options: ["Ezra", "Nehemiah", "Zerubbabel", "Jesua"],
-				correct: 0,
-			},
-			{
-				question: "Who was cupbearer to the king?",
-				options: ["Ezra", "Nehemiah", "Mordecai", "Daniel"],
-				correct: 1,
-			},
-			{
-				question: "Who refused to bow to Haman?",
-				options: ["Daniel", "Mordecai", "Ezra", "Nehemiah"],
-				correct: 1,
-			},
-			{
-				question:
-					"What is the last word of the Old Testament in English Bibles?",
-				options: ["Amen", "Curse", "Israel", "Hallelujah"],
-				correct: 1,
-			},
-			{
-				question: "Which Gospel is written to Theophilus?",
-				options: ["Matthew", "Mark", "Luke", "John"],
-				correct: 2,
-			},
-			{
-				question: "Which two Gospels have the genealogy of Jesus?",
+				question: "Sino ang nakakita nang dinala si Elias sa langit?",
 				options: [
-					"Matthew & Luke",
-					"Mark & John",
-					"Matthew & Mark",
-					"Luke & John",
+					"Eliseo",
+					"Giezi",
+					"Mga anak ng mga propeta",
+					"Lahat ng nabanggit",
 				],
 				correct: 0,
 			},
 			{
+				question: "Sino ang tumanggap ng doble ng espiritu ni Elias?",
+				options: ["Eliseo", "Giezi", "Naaman", "Jonas"],
+				correct: 0,
+			},
+			{
 				question:
-					"Who was the greatest prophet born of women according to Jesus?",
-				options: ["Elijah", "Moses", "John the Baptist", "Isaiah"],
+					"Sino ang gumaling sa ketong nang maligo sa Jordan pitong beses?",
+				options: ["Giezi", "Naaman", "Benhaded", "Hazael"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang tinamaan ng ketong dahil sa kasinungalingan?",
+				options: ["Giezi", "Ozias", "Miriam", "Naaman"],
+				correct: 0,
+			},
+			{
+				question:
+					"Sa panahon ni anong hari natagpuan ang aklat ng kautusan sa Templo?",
+				options: ["Ezequias", "Josias", "Manases", "Amon"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang pinakamasamang hari ng Juda?",
+				options: ["Ahaz", "Manases", "Joacim", "Zedekias"],
+				correct: 1,
+			},
+			{
+				question:
+					"Sino ang nagbigay pahintulot sa mga Judio na bumalik mula sa Babilonia?",
+				options: ["Nabucodonosor", "Ciro", "Dario", "Artajerjes"],
+				correct: 1,
+			},
+			{
+				question: "Sino-sino ang tumutol sa muling pagtatayo ng Templo?",
+				options: ["Sanballat at Tobias", "Aman", "Goliat", "Geshem"],
+				correct: 0,
+			},
+			{
+				question:
+					"Sino ang bumasa ng kautusan sa mga tao mula sa tanghalang kahoy?",
+				options: ["Esdras", "Nehemias", "Zorobabel", "Jesua"],
+				correct: 0,
+			},
+			{
+				question:
+					"Sino ang tagasubsob ng alak ng hari na nagbalik sa Jerusalem?",
+				options: ["Esdras", "Nehemias", "Mardokeo", "Daniel"],
+				correct: 1,
+			},
+			{
+				question: "Sino ang tumangging yumuko kay Aman?",
+				options: ["Daniel", "Mardokeo", "Esdras", "Nehemias"],
+				correct: 1,
+			},
+			{
+				question:
+					"Ano ang huling salita ng Lumang Tipan sa mga Bibliang Ingles?",
+				options: ["Amen", "Sumpa", "Israel", "Hallelujah"],
+				correct: 1,
+			},
+			{
+				question: "Saang Ebanghelyo isinulat para kay Teofilo?",
+				options: ["Mateo", "Marcos", "Lucas", "Juan"],
 				correct: 2,
 			},
 			{
-				question: "Who was Zacharias’ wife?",
-				options: ["Mary", "Elizabeth", "Anna", "Salome"],
+				question:
+					"Aling dalawang Ebanghelyo ang may talaangkanan ng Panginoong Jesucristo?",
+				options: [
+					"Mateo at Lucas",
+					"Marcos at Juan",
+					"Mateo at Marcos",
+					"Lucas at Juan",
+				],
+				correct: 0,
+			},
+			{
+				question: "Sino ang pinakadakilang propeta ayon sa Panginoon?",
+				options: ["Elias", "Moises", "Juan na Tagapagbautismo", "Isaias"],
+				correct: 2,
+			},
+			{
+				question:
+					"Sino ang asawa ni Zacarias na ama ni Juan na Tagapagbautismo?",
+				options: ["Maria", "Elizabeth", "Ana", "Salome"],
 				correct: 1,
 			},
 			{
 				question:
-					"Who was the old prophetess in the temple when Jesus was presented?",
-				options: ["Elizabeth", "Anna", "Mary", "Joanna"],
+					"Sino ang matandang propetisa sa Templo nang iharap ang Sanggol na Jesus?",
+				options: ["Elizabeth", "Ana", "Maria", "Joanna"],
 				correct: 1,
 			},
 			{
-				question: "How old was Jesus when he taught in the temple?",
+				question:
+					"Ilang taong gulang ang Panginoon nang magturo Siya sa Templo?",
 				options: ["8", "12", "15", "30"],
 				correct: 1,
 			},
 			{
-				question: "Who lost an ax head in the water?",
+				question: "Sino ang nawalan ng palakol sa tubig?",
 				options: [
-					"Elisha’s servant",
-					"Gehazi",
+					"Lingkod ni Eliseo",
+					"Giezi",
 					"Naaman",
-					"A son of the prophets",
+					"Isang anak ng mga propeta",
 				],
 				correct: 3,
 			},
 			{
-				question: "Who made an ax head float?",
-				options: ["Elijah", "Elisha", "Isaiah", "Jeremiah"],
+				question: "Sino ang nagpalutang ng palakol?",
+				options: ["Elias", "Eliseo", "Isaias", "Jeremias"],
 				correct: 1,
 			},
 			{
-				question: "Who was the Queen of Sheba’s modern-day country?",
-				options: ["Ethiopia or Yemen", "Egypt", "Persia", "India"],
+				question: "Saang bansa ngayon ang Reyna ng Sheba?",
+				options: ["Etiopia o Yemen", "Egipto", "Persia", "India"],
 				correct: 0,
 			},
 			{
 				question:
-					"Who was the first martyr mentioned by name in the New Testament?",
-				options: ["John the Baptist", "Stephen", "James", "Jesus"],
+					"Sino ang unang martir na binabanggit ang pangalan sa Bagong Tipan?",
+				options: ["Juan na Tagapagbautismo", "Esteban", "Santiago", "Jesus"],
 				correct: 1,
 			},
 			{
-				question: "Who was the sorcerer struck blind by Paul?",
+				question: "Sino ang mangkukulam na binulag ni Pablo?",
 				options: [
 					"Simon",
-					"Elymas (Bar-Jesus)",
-					"Demetrius",
-					"Alexander the coppersmith",
+					"Elimas (Bar-Jesus)",
+					"Demetrio",
+					"Alexander na panday",
 				],
 				correct: 1,
 			},
 			{
-				question: "Which church had the lukewarm problem?",
-				options: ["Ephesus", "Laodicea", "Sardis", "Philadelphia"],
+				question: "Aling iglesia ang “malamig at mainit-init”?",
+				options: ["Efeso", "Laodicea", "Sardis", "Filadelfia"],
 				correct: 1,
 			},
 			{
-				question: "Which church was told “you have left your first love”?",
-				options: ["Ephesus", "Pergamos", "Thyatira", "Smyrna"],
+				question:
+					"Aling iglesia ang sinabihan na “inwan mo ang iyong unang pag-ibig”?",
+				options: ["Efeso", "Pergamo", "Tiatira", "Esmirna"],
 				correct: 0,
 			},
 			{
-				question: "How many churches are in Revelation?",
+				question: "Ilan ang mga iglesia sa Pahayag?",
 				options: ["7", "12", "24", "144"],
 				correct: 0,
 			},
