@@ -14,11 +14,6 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-/**
- * BibleQuest - complete working React component (JSX).
- * Paste into your app as BibleQuest.jsx and render <BibleQuest />.
- */
-
 type Question = {
 	question: string;
 	options: string[];
@@ -31,7 +26,6 @@ type QuestionsGroup = {
 	hard: Question[];
 };
 
-// --- shuffle helper (module scope) ---
 function shuffle<T>(array: T[]) {
 	const newArray = [...array];
 	for (let i = newArray.length - 1; i > 0; i--) {
@@ -56,7 +50,6 @@ const BibleQuest: React.FC = () => {
 	const [showVerse, setShowVerse] = useState<boolean>(false);
 	const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
 
-	// --- YOUR QUESTIONS (copied from your original object) ---
 	const allQuestions = {
 		easy: [
 			{
